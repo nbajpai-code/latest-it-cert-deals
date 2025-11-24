@@ -1,8 +1,8 @@
-name: Update IT Certification Deals Weekly
+name: Update IT Certification Deals Daily
 
 on:
   schedule:
-    # Run every ay at 9 AM UTC
+    # Run every day at 9 AM UTC
     - cron: '0 9 * * *'
 
   workflow_dispatch: # Allow manual triggering
@@ -154,7 +154,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "🤖 Weekly IT certification deals check - $(date +'%Y-%m-%d')
+            git commit -m "🤖 Daily IT certification deals check - $(date +'%Y-%m-%d')
 
             Automated weekly check completed successfully.
 
@@ -185,7 +185,7 @@ jobs:
             await github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              title: `📅 Weekly IT Certification Deals Check - ${date}`,
+              title: `📅 Daily IT Certification Deals Check - ${date}`,
               body: updateSummary + `
 
               ---
@@ -223,4 +223,4 @@ jobs:
           echo "🎉 IT Certification Deals check completed!"
           echo "Status: ${{ needs.check-cert-deals.result }}"
           echo "Date: $(date +'%Y-%m-%d %H:%M:%S UTC')"
-          echo "Next run: $(date -d '+7 days' +'%Y-%m-%d') at 9 AM UTC"
+          echo "Next run: $(date -d '+1 days' +'%Y-%m-%d') at 9 AM UTC"
