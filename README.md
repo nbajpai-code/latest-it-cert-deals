@@ -1,6 +1,6 @@
 # 🎓 Latest IT Certification Deals, Free Exams & Beta Programs
 
-> **Updated:** November 18, 2025 | **Auto-updated:** Weekly via GitHub Actions
+> **Updated:** November 24, 2025 | **Auto-updated:** Daily via GitHub Actions
 
 A curated list of **free IT certification exam vouchers**, **beta exam opportunities**, and **discount codes** from major cloud providers and IT certification vendors.
 
@@ -568,7 +568,7 @@ Found a new deal? Please contribute!
 **⭐ Star this repo** to bookmark and get notified of updates!
 
 **Last Manual Update:** November 24, 2025
-**Next Automated Check:** December 01, 2025 (Every Monday 9 AM UTC)
+**Next Automated Check:** November 25, 2025 (Every ay 9 AM UTC)
 
 ---
 
