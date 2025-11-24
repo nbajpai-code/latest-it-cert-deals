@@ -121,31 +121,34 @@ jobs:
           print(f"::set-output name=deals_found::5")
           EOF
 
-      - name: Update LATEST-IT-CERTS-DEALS.md
+      - name: Update README.md
         run: |
           # Update the "Last Manual Update" date in the markdown file
           CURRENT_DATE=$(date +'%B %d, %Y')
-          NEXT_CHECK=$(date -d '+7 days' +'%B %d, %Y')
+          NEXT_CHECK=$(date -d '+7 days' +'%B %d, %Y' 2>/dev/null || date -v+7d +'%B %d, %Y')
 
           # Update dates in the file
-          sed -i "s/\*\*Last Manual Update:\*\* .*/\*\*Last Manual Update:\*\* $CURRENT_DATE/" LATEST-IT-CERTS-DEALS.md
-          sed -i "s/\*\*Next Automated Check:\*\* .*/\*\*Next Automated Check:\*\* $NEXT_CHECK (Every Monday 9 AM UTC)/" LATEST-IT-CERTS-DEALS.md
+          sed -i.bak "s/\*\*Last Manual Update:\*\* .*/\*\*Last Manual Update:\*\* $CURRENT_DATE/" README.md
+          sed -i.bak "s/\*\*Next Automated Check:\*\* .*/\*\*Next Automated Check:\*\* $NEXT_CHECK (Every Monday 9 AM UTC)/" README.md
 
           # Append to update log
-          echo "| $(date +'%Y-%m-%d') | Automated weekly check via GitHub Actions |" >> /tmp/update_log.txt
+          echo "| $(date +'%Y-%m-%d') | Automated weekly check via GitHub Actions |" > /tmp/update_log.txt
 
           # Insert new log entry (after the header row)
           awk '/\| Date \| Update \|/{print; print ""; while(getline < "/tmp/update_log.txt") print; next}1' \
-            LATEST-IT-CERTS-DEALS.md > /tmp/updated.md && mv /tmp/updated.md LATEST-IT-CERTS-DEALS.md
+            README.md > /tmp/updated.md && mv /tmp/updated.md README.md
 
-          echo "✅ Updated LATEST-IT-CERTS-DEALS.md with current date"
+          # Clean up backup file
+          rm -f README.md.bak
+
+          echo "✅ Updated README.md with current date"
 
       - name: Commit changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
 
-          git add LATEST-IT-CERTS-DEALS.md cert-deals-update.md
+          git add README.md cert-deals-update.md
 
           if git diff --staged --quiet; then
             echo "No changes to commit"
@@ -188,7 +191,7 @@ jobs:
 
               ## 🔗 Quick Links
 
-              - [View Full Deals List](https://github.com/${context.repo.owner}/${context.repo.repo}/blob/master/LATEST-IT-CERTS-DEALS.md)
+              - [View Full Deals List](https://github.com/${context.repo.owner}/${context.repo.repo}/blob/master/README.md)
               - [Microsoft AI Skills Fest](https://www.microsoft.com/en-us/cloudskillschallenge/ai/)
               - [AWS Emerging Talent](https://aws.amazon.com/training/emerging-talent-community/)
               - [(ISC)² Free Certification](https://www.isc2.org/landing/1mcc)
