@@ -1,5 +1,5 @@
 
-# 📊 Weekly IT Certification Deals Check
+# 📊 Daily IT Certification Deals Check
 
 **Date:** 2025-11-24
 **Status:** Automated check completed
