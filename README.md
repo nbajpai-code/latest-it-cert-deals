@@ -18,39 +18,90 @@ A curated list of **free IT certification exam vouchers**, **beta exam opportuni
 
 ## 🎯 Active Free Voucher Programs (2025)
 
-### Microsoft - AI Skills Fest 2025 🔥
+### Microsoft - Fabric Data Days 2025 🔥
 
-**Status:** ✅ **ACTIVE** (April 8 - May 28, 2025)
+**Status:** ✅ **ACTIVE** (Ending November 25, 2025)
 
-Microsoft is offering **50,000 free certification exam vouchers** to celebrate their 50th anniversary!
+Microsoft is offering **100% and 50% off certification exam vouchers** through Fabric Data Days!
 
 **Details:**
-- **Eligibility:** Register for AI Skills Fest challenge and start learning content
-- **Deadline:** Register by May 28, 2025
-- **Voucher Redemption:** June 21, 2025
-- **No completion required:** Just begin the learning path to qualify
+- **Eligibility:** Attend Fabric Data Days virtual training
+- **Deadline:** November 25, 2025
+- **Voucher Types:** 100% off or 50% off depending on certification
 
 **Available Certifications:**
-- ✅ Azure Fundamentals (AZ-900)
-- ✅ Azure AI Fundamentals (AI-900)
-- ✅ Azure AI Engineer Associate (AI-102)
-- ✅ Azure Data Fundamentals (DP-900)
-- ✅ Microsoft 365 Fundamentals (MS-900)
-- ✅ Power Platform Fundamentals (PL-900)
-- ✅ Security, Compliance, and Identity Fundamentals (SC-900)
-- ✅ AI-102, DP-600, and other associate/expert level exams
+- ✅ **100% OFF:** DP-600 (Fabric Analytics Engineer Associate)
+- ✅ **100% OFF:** DP-700 (Fabric Data Engineer Associate)
+- ✅ **50% OFF:** DP-900 (Azure Data Fundamentals)
+- ✅ **50% OFF:** PL-300 (Power BI Data Analyst Associate)
 
 **How to Claim:**
-1. Visit [Microsoft AI Skills Fest](https://www.microsoft.com/en-us/cloudskillschallenge/ai/registration)
-2. Register for a challenge
-3. Begin learning content
-4. Receive free exam voucher via Pearson VUE
+1. Register for [Fabric Data Days](https://www.microsoft.com/en-us/trainingdays)
+2. Attend the virtual training sessions
+3. Complete the training requirements
+4. Receive exam voucher via email
 
 **Value:** $99-$165 per exam saved
 
 **Links:**
-- [Official Program Page](https://www.microsoft.com/en-us/cloudskillschallenge/ai/)
-- [Learn More](https://www.coursejoiner.com/freeonlinecourses/free-microsoft-certification-vouchers/)
+- [Microsoft Virtual Training Days](https://www.microsoft.com/en-us/trainingdays)
+- [Fabric Data Days Info](https://www.microsoft.com/en-us/trainingdays)
+
+---
+
+### Microsoft - Partner Programs 🔥
+
+**Status:** ✅ **ACTIVE** (Ongoing for Partners)
+
+**Microsoft Partner Certification Week:**
+- **Benefit:** 100% off exam voucher
+- **Eligibility:** Microsoft Partners attending instructor-led training
+- **How:** Attend partner certification week training
+
+**Microsoft Partner LevelUp:**
+- **Benefit:** 100% off exam voucher
+- **Eligibility:** Microsoft Partner employees
+- **How:** Complete free certification courses through LevelUp program
+
+**Power Up Program:**
+- **Benefit:** 100% off exam voucher
+- **Eligibility:** Individuals from non-technical backgrounds
+- **How:** Complete Power Up career transition program
+
+**Value:** $99-$165 per exam saved
+
+---
+
+### AWS - 25% Discount + Free Retake 🔥
+
+**Status:** ✅ **ACTIVE** (November 10, 2025 - February 15, 2026)
+
+AWS is offering a **25% discount on ANY certification exam PLUS a free retake** if you don't pass!
+
+**Details:**
+- **Promotion Period:** November 10, 2025 - February 15, 2026
+- **Discount:** 25% off any AWS certification exam
+- **Free Retake:** If you don't pass on first attempt
+- **Eligibility:** Available to everyone
+
+**Available Certifications:**
+- ✅ ALL AWS Certifications (Foundational, Associate, Professional, Specialty)
+- ✅ Cloud Practitioner, AI Practitioner
+- ✅ Solutions Architect, Developer, SysOps Administrator
+- ✅ Data Engineer, Machine Learning Engineer
+- ✅ Security, DevOps Engineer, Advanced Networking
+
+**How to Claim:**
+1. Visit AWS Certification portal
+2. Apply promotion code during checkout
+3. Schedule your exam
+4. Get free retake if needed
+
+**Value:** $37.50-$112.50 saved + free retake ($150-$300 value)
+
+**Links:**
+- [AWS Certification](https://aws.amazon.com/certification/)
+- [Promotion Details](https://aws.amazon.com/certification/)
 
 ---
 
@@ -63,7 +114,7 @@ AWS offers **100% free certification vouchers** for eligible students and early-
 **Details:**
 - **Eligibility:** Must earn qualifying badges in AWS Educate, AWS re/Start, or AWS Academy
 - **Age Requirement:** 18+
-- **Expiration:** Vouchers expire September 30, 2025
+- **Expiration:** Vouchers expire August-September 2026 (varies by program)
 
 **Available Certifications:**
 - ✅ AWS Certified Cloud Practitioner (CLF-C02)
@@ -205,27 +256,26 @@ Beta exams are **heavily discounted or free** in exchange for feedback. Check th
 
 ### Cisco Beta Exams
 
-**Status:** 🆕 **Free Retake Program Active!**
+**Status:** ❌ **EXPIRED** - Free Retake Program Ended
 
-Cisco + Pearson VUE are offering **free exam retakes**!
+Cisco + Pearson VUE offered **free exam retakes** earlier in 2025.
 
-**Details:**
-- **Registration Period:** Now - June 12, 2025
-- **First Attempt:** Schedule by June 12, 2025
+**Previous Program Details:**
+- **Registration Period:** May 1 - June 12, 2025
+- **First Attempt:** Had to be scheduled by June 12, 2025
 - **Free Retake Valid:** July 7, 2025 - January 20, 2026
 - **Eligible Exams:** All Cisco certification exams
 
-**How to Get:**
-1. Visit [Pearson VUE Free Retake](https://www.pearsonvue.com/us/en/test-takers/free-retake.html)
-2. Fill out form for Cisco
-3. Receive promo code via email
-4. Schedule exam by June 12, 2025
-5. Get free retake if needed
+**Current Status:**
+- ❌ Registration period has ended (June 12, 2025)
+- ⚠️ If you registered during the period, you can still use your free retake until January 20, 2026
 
-**Important:** Cannot combine with prepaid vouchers
+**Watch For:**
+- Check [Cisco Learning Network](https://community.cisco.com/) for future promotions
+- Follow Cisco on LinkedIn for new opportunities
 
 **Links:**
-- [Cisco Free Retake Program](https://community.cisco.com/t5/online-tools-and-resources/free-certification-exam-retake/td-p/5287368)
+- [Cisco Certifications](https://www.cisco.com/c/en/us/training-events/training-certifications/certifications.html)
 
 ---
 
