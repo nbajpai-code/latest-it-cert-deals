@@ -37,31 +37,12 @@ jobs:
         run: |
           pip install requests beautifulsoup4 python-dateutil
 
+      - name: Generate README from active deals
+        run: python scripts/generate_readme.py
+
       - name: Search for IT Certification Deals
         id: search_deals
         run: python scripts/daily_cert_deals.py
-
-      - name: Update README.md
-        run: |
-          # Update the "Last Manual Update" date in the markdown file
-          CURRENT_DATE=$(date +'%B %d, %Y')
-          NEXT_CHECK=$(date -d '+7 days' +'%B %d, %Y' 2>/dev/null || date -v+7d +'%B %d, %Y')
-
-          # Update dates in the file
-          sed -i.bak "s/\*\*Last Manual Update:\*\* .*/\*\*Last Manual Update:\*\* $CURRENT_DATE/" README.md
-          sed -i.bak "s/\*\*Next Automated Check:\*\* .*/\*\*Next Automated Check:\*\* $NEXT_CHECK (Every Monday 9 AM UTC)/" README.md
-
-          # Append to update log
-          echo "| $(date +'%Y-%m-%d') | Automated weekly check via GitHub Actions |" > /tmp/update_log.txt
-
-          # Insert new log entry (after the header row)
-          awk '/\| Date \| Update \|/{print; print ""; while(getline < "/tmp/update_log.txt") print; next}1' \
-            README.md > /tmp/updated.md && mv /tmp/updated.md README.md
-
-          # Clean up backup file
-          rm -f README.md.bak
-
-          echo "✅ Updated README.md with current date"
 
       - name: Commit changes
         run: |

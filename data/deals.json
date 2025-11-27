@@ -1,0 +1,162 @@
+{
+    "deals": [
+        {
+            "id": "aws-discount-retake-2025",
+            "provider": "AWS",
+            "title": "25% Discount + Free Retake",
+            "status": "active",
+            "start_date": "2025-11-10",
+            "end_date": "2026-02-15",
+            "ongoing": false,
+            "eligibility": "Available to everyone",
+            "discount": "25% off any AWS certification exam",
+            "free_retake": true,
+            "certifications": [
+                "All AWS Certifications"
+            ],
+            "value": "$37.50-$112.50 saved + free retake ($150-$300 value)",
+            "how_to_claim": [
+                "Visit AWS Certification portal",
+                "Apply promotion code during checkout",
+                "Schedule your exam",
+                "Get free retake if needed"
+            ],
+            "links": {
+                "main": "https://aws.amazon.com/certification/",
+                "promo": "https://aws.amazon.com/certification/"
+            }
+        },
+        {
+            "id": "aws-etc-2025",
+            "provider": "AWS",
+            "title": "Emerging Talent Community (ETC)",
+            "status": "active",
+            "ongoing": true,
+            "eligibility": "Must earn qualifying badges in AWS Educate, AWS re/Start, or AWS Academy. Age 18+",
+            "voucher_expiration": "August-September 2026",
+            "certifications": [
+                "AWS Certified Cloud Practitioner (CLF-C02)",
+                "AWS Certified AI Practitioner (AIF-C01)",
+                "AWS Certified Solutions Architect - Associate",
+                "AWS Certified Developer - Associate",
+                "AWS Certified SysOps Administrator - Associate",
+                "AWS Certified Data Engineer - Associate",
+                "AWS Certified Machine Learning Engineer - Associate"
+            ],
+            "value": "$150-$300 per exam saved",
+            "how_to_claim": [
+                "Complete AWS Training program (Educate/re/Start/Academy)",
+                "Earn qualifying badge",
+                "Use ETC points to request voucher",
+                "Redeem at AWS Certification portal"
+            ],
+            "links": {
+                "main": "https://aws.amazon.com/training/emerging-talent-community/",
+                "info": "https://dev.to/uniyalmanas/how-to-get-aws-certifications-for-free-in-2025-554c"
+            }
+        },
+        {
+            "id": "oracle-oci-foundations",
+            "provider": "Oracle",
+            "title": "Cloud Infrastructure Foundations - Always Free",
+            "status": "active",
+            "ongoing": true,
+            "cost": "$0",
+            "certification": "Oracle Cloud Infrastructure Foundations Associate",
+            "exam_code": "1Z0-1085-24",
+            "prerequisites": "None",
+            "format": "Online proctored exam",
+            "value": "$95 saved",
+            "how_to_claim": [
+                "Create Oracle Cloud account (free)",
+                "Complete free training at Oracle University",
+                "Schedule exam at no cost",
+                "Take exam online"
+            ],
+            "links": {
+                "main": "https://www.oracle.com/cloud/free/",
+                "cert": "https://education.oracle.com/oracle-cloud-infrastructure-2024-foundations-associate/pexam_1Z0-1085-24"
+            }
+        },
+        {
+            "id": "isc2-cc-2025",
+            "provider": "(ISC)²",
+            "title": "One Million Certified in Cybersecurity",
+            "status": "active",
+            "ongoing": true,
+            "cost": "$0",
+            "certification": "Certified in Cybersecurity (CC)",
+            "includes": [
+                "Free exam voucher",
+                "Free exam retake (if needed)",
+                "Free training materials",
+                "1 year (ISC)² Associate membership"
+            ],
+            "value": "$50 (exam) + $99 (retake) + $50 (membership) = $199 saved",
+            "how_to_claim": [
+                "Register at isc2.org/landing/1mcc",
+                "Complete free training",
+                "Schedule exam",
+                "Pass and get certified"
+            ],
+            "links": {
+                "main": "https://www.isc2.org/landing/1mcc"
+            }
+        },
+        {
+            "id": "microsoft-partner-programs",
+            "provider": "Microsoft",
+            "title": "Partner Programs",
+            "status": "active",
+            "ongoing": true,
+            "programs": [
+                {
+                    "name": "Partner Certification Week",
+                    "benefit": "100% off exam voucher",
+                    "eligibility": "Microsoft Partners attending instructor-led training"
+                },
+                {
+                    "name": "Partner LevelUp",
+                    "benefit": "100% off exam voucher",
+                    "eligibility": "Microsoft Partner employees"
+                },
+                {
+                    "name": "Power Up Program",
+                    "benefit": "100% off exam voucher",
+                    "eligibility": "Individuals from non-technical backgrounds"
+                }
+            ],
+            "value": "$99-$165 per exam saved",
+            "links": {
+                "main": "https://www.microsoft.com/en-us/trainingdays"
+            }
+        }
+    ],
+    "beta_sources": [
+        {
+            "provider": "Microsoft",
+            "discount": "80% off (first 300 registrants) + 25% off next exam",
+            "sources": [
+                "https://techcommunity.microsoft.com/category/learn",
+                "https://twitter.com/MicrosoftLearn",
+                "https://borntolearn.mslearn.net/"
+            ]
+        },
+        {
+            "provider": "AWS",
+            "discount": "50% off or free",
+            "sources": [
+                "https://www.linkedin.com/showcase/aws-training-and-certification/",
+                "https://aws.amazon.com/blogs/training-and-certification/",
+                "https://twitter.com/AWSTrainCert"
+            ]
+        },
+        {
+            "provider": "CompTIA",
+            "discount": "Free or heavily discounted",
+            "sources": [
+                "https://www.comptia.org/testing/beta-exams"
+            ]
+        }
+    ]
+}
