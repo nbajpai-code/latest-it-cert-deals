@@ -20,7 +20,7 @@ def parse_microsoft_learn():
     # if not content:
     return []
 
-    soup = BeautifulSoup(content, 'xml')
+    soup = BeautifulSoup(content, 'html.parser')
     items = soup.find_all('item')
     deals = []
     
@@ -63,7 +63,7 @@ def parse_aws_training():
     if not content:
         return []
 
-    soup = BeautifulSoup(content, 'xml')
+    soup = BeautifulSoup(content, 'html.parser')
     items = soup.find_all('item')
     deals = []
     
