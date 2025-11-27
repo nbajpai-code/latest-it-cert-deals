@@ -114,12 +114,15 @@ jobs:
           with open('cert-deals-update.md', 'w') as f:
               f.write(summary)
 
+          import os
+
           print("✅ Search completed")
           print(f"Summary saved to cert-deals-update.md")
 
           # Output for GitHub Actions
-          print(f"::set-output name=update_date::{update_date}")
-          print(f"::set-output name=deals_found::5")
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as fh:
+              print(f"update_date={update_date}", file=fh)
+              print(f"deals_found=5", file=fh)
           EOF
 
       - name: Update README.md
