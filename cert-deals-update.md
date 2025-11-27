@@ -1,9 +1,10 @@
 # 📊 Weekly IT Certification Update
-**Date:** 2025-11-26
+**Date:** 2025-11-27
 **Status:** Automated check completed
 
 ## 📰 Latest News (Last 7 Days)
-- **[AWS Training]** [How AWS certifications helped me transition from pro athlete to cloud engineer](https://aws.amazon.com/blogs/training-and-certification/how-aws-certifications-helped-me-transition-from-pro-athlete-to-cloud-engineer/) (2025-11-25)
+
+No specific 'deal' keywords found in the last 7 days. Check the links below for general updates.
 
 ## 🔗 Quick Links for Manual Checks
 - [Microsoft Learn Blog](https://techcommunity.microsoft.com/t5/microsoft-learn-blog/bg-p/MicrosoftLearnBlog)
