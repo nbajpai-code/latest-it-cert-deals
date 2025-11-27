@@ -1,7 +1,7 @@
 # 🛍️ Black Friday & Cyber Monday Deals 2025
 
 > **Auto-updated hourly** from Nov 1 to Dec 15.
-> Last updated: `2025-11-27 15:24:07 UTC`
+> Last updated: `2025-11-27 16:28:54 UTC`
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/nbajpai-code/latest-it-cert-deals/graphs/commit-activity)
@@ -102,6 +102,7 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **🤖 AI Tools** | **Enconvo** | The Always‑Online AI Companion That Knows You Best, contextually aware of your screen and apps, delivering the perfect response to automate your complex tasks. | [👉 Get Deal](https://enconvo.com) |
 | **🤖 AI Tools** | **Semantic Pen** | AI Content Writer - Generate high-quality content with AI | [👉 Get Deal](https://www.semanticpen.com/) |
 | **🤖 AI Tools** | **Pesu.ai** | Pesu.ai helps recruiters and HR teams evaluate candidates in real time, using AI to automatically create and score skill-based assessments. | [👉 Get Deal](https://pesu.payanai.com/) |
+| **🤖 AI Tools** | **CallCow AI** | AI voice assistant that sounds just like you. Clone your voice in 30 seconds and replace your traditional voice mail. | [👉 Get Deal](https://www.callcow.ai) |
 | **🛠 Marketing Software** | **viral.app** | UGC analytics platform to track TikTok, Instagram, and YouTube performance for brands and agencies. | [👉 Get Deal](https://viral.app) |
 | **🛠 Marketing Software** | **ContentStudio.io** | ContentStudio is a unified social media and content marketing platform that helps brands and teams plan, create, publish, and analyse content. With smart scheduling, visual content calendars, AI-powered caption and image generation, and analytics, it helps you scale content creation while keeping quality and strategy intact. | [👉 Get Deal](https://contentstudio.io/black-friday) |
 | **🛠 Marketing Software** | **Replug.io** | Replug.io is a link management and branded short link platform tailored for marketers and agencies. It offers custom branded short links, bio-link pages, QR codes, link analytics, A/B testing, retargeting pixels, and white-label capabilities, so you can turn every link into a measurable marketing asset and boost conversions from clicks. | [👉 Get Deal](https://replug.io/black-friday) |
