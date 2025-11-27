@@ -173,44 +173,7 @@ jobs:
             git push
           fi
 
-      - name: Create GitHub Issue for Updates
-        if: github.event.inputs.create_issue == 'true' || github.event_name == 'schedule'
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const fs = require('fs');
-            const updateSummary = fs.readFileSync('cert-deals-update.md', 'utf8');
-            const date = new Date().toISOString().split('T')[0];
 
-            await github.rest.issues.create({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              title: `📅 Daily IT Certification Deals Check - ${date}`,
-              body: updateSummary + `
-
-              ---
-
-              ## 🔗 Quick Links
-
-              - [View Full Deals List](https://github.com/${context.repo.owner}/${context.repo.repo}/blob/master/README.md)
-              - [Microsoft AI Skills Fest](https://www.microsoft.com/en-us/cloudskillschallenge/ai/)
-              - [AWS Emerging Talent](https://aws.amazon.com/training/emerging-talent-community/)
-              - [(ISC)² Free Certification](https://www.isc2.org/landing/1mcc)
-
-              ## 💡 Action Items
-
-              - [ ] Check for new Microsoft beta exams
-              - [ ] Verify AWS ETC eligibility
-              - [ ] Look for event-based vouchers
-              - [ ] Join certification communities
-
-              ---
-
-              *Automated by GitHub Actions* 🤖
-              *Next check: ${new Date(Date.now() + 7*24*60*60*1000).toISOString().split('T')[0]}*
-              `,
-              labels: ['automated', 'certification-deals', 'weekly-update']
-            });
 
   notify-completion:
     needs: check-cert-deals
