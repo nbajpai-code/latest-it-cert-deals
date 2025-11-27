@@ -18,9 +18,9 @@ A curated list of **free IT certification exam vouchers**, **beta exam opportuni
 
 ## 🎯 Active Free Voucher Programs (2025)
 
-### Microsoft - Fabric Data Days 2025 🔥
+### Microsoft - Fabric Data Days 2025 ❌
 
-**Status:** ✅ **ACTIVE** (Ending November 25, 2025)
+**Status:** ❌ **EXPIRED** (Ended November 25, 2025)
 
 Microsoft is offering **100% and 50% off certification exam vouchers** through Fabric Data Days!
 
