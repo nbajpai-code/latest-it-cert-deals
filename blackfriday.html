@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🛍️ Black Friday & Cyber Monday Deals 2025</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .filters-section {
+            padding: 30px;
+            background: #f8f9fa;
+            border-bottom: 2px solid #e9ecef;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .search-box {
+            width: 100%;
+            padding: 15px 20px;
+            font-size: 16px;
+            border: 2px solid #dee2e6;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            transition: all 0.3s;
+        }
+
+        .search-box:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .category-filters {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .category-btn {
+            padding: 10px 20px;
+            border: 2px solid #dee2e6;
+            background: white;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .category-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .category-btn.active {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-color: #667eea;
+        }
+
+        .filter-controls {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .results-count {
+            font-size: 14px;
+            color: #6c757d;
+            font-weight: 500;
+        }
+
+        .clear-btn {
+            padding: 8px 16px;
+            background: #dc3545;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.3s;
+        }
+
+        .clear-btn:hover {
+            background: #c82333;
+            transform: translateY(-1px);
+        }
+
+        .deals-container {
+            padding: 30px;
+        }
+
+        .deal-card {
+            background: white;
+            border: 1px solid #e9ecef;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 15px;
+            transition: all 0.3s;
+            display: grid;
+            grid-template-columns: 80px 1fr auto;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .deal-card:hover {
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+            transform: translateY(-2px);
+            border-color: #667eea;
+        }
+
+        .deal-category {
+            font-size: 32px;
+            text-align: center;
+        }
+
+        .deal-info {
+            flex: 1;
+        }
+
+        .deal-name {
+            font-size: 1.3em;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 8px;
+        }
+
+        .deal-description {
+            color: #6c757d;
+            font-size: 0.95em;
+            line-height: 1.5;
+        }
+
+        .deal-link {
+            padding: 12px 24px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.3s;
+            display: inline-block;
+            white-space: nowrap;
+        }
+
+        .deal-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 60px 20px;
+            color: #6c757d;
+        }
+
+        .no-results-icon {
+            font-size: 64px;
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .deal-card {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .category-filters {
+                justify-content: center;
+            }
+
+            h1 {
+                font-size: 1.8em;
+            }
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            font-size: 1.2em;
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🛍️ Black Friday & Cyber Monday Deals 2025</h1>
+            <p class="subtitle">Curated deals for developers, macOS/iOS software, and books</p>
+        </header>
+
+        <div class="filters-section">
+            <input type="text" class="search-box" id="searchBox" placeholder="🔍 Search deals by name or description...">
+            
+            <div class="category-filters" id="categoryFilters">
+                <!-- Categories will be populated by JavaScript -->
+            </div>
+
+            <div class="filter-controls">
+                <span class="results-count" id="resultsCount">Loading deals...</span>
+                <button class="clear-btn" id="clearBtn">Clear Filters</button>
+            </div>
+        </div>
+
+        <div class="deals-container" id="dealsContainer">
+            <div class="loading">Loading amazing deals... 🎁</div>
+        </div>
+    </div>
+
+    <script>
+        // Parse markdown table data
+        const deals = [];
+        const categories = new Set();
+
+        // Fetch and parse the markdown file
+        async function loadDeals() {
+            try {
+                const response = await fetch('blackfriday.md');
+                const text = await response.text();
+                
+                // Parse markdown table
+                const lines = text.split('\n');
+                let inTable = false;
+                
+                for (const line of lines) {
+                    if (line.startsWith('| Category |')) {
+                        inTable = true;
+                        continue;
+                    }
+                    if (line.startsWith('|:---|')) continue;
+                    if (!inTable || !line.startsWith('|')) continue;
+                    if (line.includes('---')) continue;
+                    
+                    const parts = line.split('|').map(p => p.trim()).filter(p => p);
+                    if (parts.length >= 4) {
+                        const category = parts[0];
+                        const name = parts[1].replace(/\*\*/g, '');
+                        const description = parts[2];
+                        const linkMatch = parts[3].match(/\[.*?\]\((.*?)\)/);
+                        const link = linkMatch ? linkMatch[1] : '#';
+                        
+                        if (category && name && description) {
+                            deals.push({ category, name, description, link });
+                            categories.add(category);
+                        }
+                    }
+                }
+                
+                initializeFilters();
+                renderDeals(deals);
+            } catch (error) {
+                document.getElementById('dealsContainer').innerHTML = 
+                    '<div class="no-results"><div class="no-results-icon">⚠️</div><h2>Error loading deals</h2><p>Please make sure blackfriday.md is in the same directory.</p></div>';
+            }
+        }
+
+        let activeCategories = new Set();
+        let searchTerm = '';
+
+        function initializeFilters() {
+            const filterContainer = document.getElementById('categoryFilters');
+            const sortedCategories = Array.from(categories).sort();
+            
+            sortedCategories.forEach(category => {
+                const btn = document.createElement('button');
+                btn.className = 'category-btn';
+                btn.textContent = category;
+                btn.onclick = () => toggleCategory(category, btn);
+                filterContainer.appendChild(btn);
+            });
+        }
+
+        function toggleCategory(category, btn) {
+            if (activeCategories.has(category)) {
+                activeCategories.delete(category);
+                btn.classList.remove('active');
+            } else {
+                activeCategories.add(category);
+                btn.classList.add('active');
+            }
+            filterDeals();
+        }
+
+        function filterDeals() {
+            let filtered = deals;
+            
+            // Filter by category
+            if (activeCategories.size > 0) {
+                filtered = filtered.filter(deal => activeCategories.has(deal.category));
+            }
+            
+            // Filter by search term
+            if (searchTerm) {
+                const search = searchTerm.toLowerCase();
+                filtered = filtered.filter(deal => 
+                    deal.name.toLowerCase().includes(search) ||
+                    deal.description.toLowerCase().includes(search)
+                );
+            }
+            
+            renderDeals(filtered);
+        }
+
+        function renderDeals(dealsToRender) {
+            const container = document.getElementById('dealsContainer');
+            const resultsCount = document.getElementById('resultsCount');
+            
+            resultsCount.textContent = `Showing ${dealsToRender.length} of ${deals.length} deals`;
+            
+            if (dealsToRender.length === 0) {
+                container.innerHTML = `
+                    <div class="no-results">
+                        <div class="no-results-icon">🔍</div>
+                        <h2>No deals found</h2>
+                        <p>Try adjusting your filters or search term</p>
+                    </div>
+                `;
+                return;
+            }
+            
+            container.innerHTML = dealsToRender.map(deal => `
+                <div class="deal-card">
+                    <div class="deal-category">${deal.category}</div>
+                    <div class="deal-info">
+                        <div class="deal-name">${deal.name}</div>
+                        <div class="deal-description">${deal.description}</div>
+                    </div>
+                    <a href="${deal.link}" class="deal-link" target="_blank" rel="noopener">👉 Get Deal</a>
+                </div>
+            `).join('');
+        }
+
+        // Event listeners
+        document.getElementById('searchBox').addEventListener('input', (e) => {
+            searchTerm = e.target.value;
+            filterDeals();
+        });
+
+        document.getElementById('clearBtn').addEventListener('click', () => {
+            activeCategories.clear();
+            searchTerm = '';
+            document.getElementById('searchBox').value = '';
+            document.querySelectorAll('.category-btn').forEach(btn => btn.classList.remove('active'));
+            filterDeals();
+        });
+
+        // Load deals on page load
+        loadDeals();
+    </script>
+</body>
+</html>
