@@ -1,7 +1,7 @@
 # 🛍️ Black Friday & Cyber Monday Deals 2025
 
 > **Auto-updated hourly** from Nov 1 to Dec 15.
-> Last updated: `2025-11-27 17:19:12 UTC`
+> Last updated: `2025-11-27 18:31:47 UTC`
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/nbajpai-code/latest-it-cert-deals/graphs/commit-activity)
@@ -103,6 +103,7 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **🤖 AI Tools** | **Semantic Pen** | AI Content Writer - Generate high-quality content with AI | [👉 Get Deal](https://www.semanticpen.com/) |
 | **🤖 AI Tools** | **Pesu.ai** | Pesu.ai helps recruiters and HR teams evaluate candidates in real time, using AI to automatically create and score skill-based assessments. | [👉 Get Deal](https://pesu.payanai.com/) |
 | **🤖 AI Tools** | **CallCow AI** | AI voice assistant that sounds just like you. Clone your voice in 30 seconds and replace your traditional voice mail. | [👉 Get Deal](https://www.callcow.ai) |
+| **🤖 AI Tools** | **Monologue** | Effortless voice dictation that adapts to your style, context & vocabulary so you can work 3× faster. | [👉 Get Deal](https://monologue.to) |
 | **🛠 Marketing Software** | **viral.app** | UGC analytics platform to track TikTok, Instagram, and YouTube performance for brands and agencies. | [👉 Get Deal](https://viral.app) |
 | **🛠 Marketing Software** | **ContentStudio.io** | ContentStudio is a unified social media and content marketing platform that helps brands and teams plan, create, publish, and analyse content. With smart scheduling, visual content calendars, AI-powered caption and image generation, and analytics, it helps you scale content creation while keeping quality and strategy intact. | [👉 Get Deal](https://contentstudio.io/black-friday) |
 | **🛠 Marketing Software** | **Replug.io** | Replug.io is a link management and branded short link platform tailored for marketers and agencies. It offers custom branded short links, bio-link pages, QR codes, link analytics, A/B testing, retargeting pixels, and white-label capabilities, so you can turn every link into a measurable marketing asset and boost conversions from clicks. | [👉 Get Deal](https://replug.io/black-friday) |
@@ -228,6 +229,7 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **📌 Productivity Software** | **Mailbird** | The Best Email client for Windows and Mac. Bring all your email accounts, calendars, and apps into one clean workspace. Stay focused, move faster. | [👉 Get Deal](https://www.getmailbird.com/) |
 | **📌 Productivity Software** | **Spencer** | Save & restore window positions — across all virtual Desktops. Launch the right apps, hide others, and adjust number of Desktops to match your saved setup. Create layouts for different display setups and different tasks to stay organized and focused. | [👉 Get Deal](https://macspencer.app) |
 | **📌 Productivity Software** | **Tabhive** | Tabhive is a Chrome extension that helps you organize your tabs and manage your links | [👉 Get Deal](https://www.tabhive.app/) |
+| **📌 Productivity Software** | **SwiftBiu** | SwiftBiu is a text efficiency tool for macOS, select text in any app and a customizable extended toolbar pops up to make common operations "one step". Supports AI multimodal (text-to-text, text-to-graph), AppleScript/javascript plugins, html extension applets. | [👉 Get Deal](https://swiftbiu.com) |
 | **🎥 Video Software** | **TranslateMom** | Instantly caption, translate, or dub HD videos in 100+ languages with natural voices. | [👉 Get Deal](https://translatemom.com/?utm_source=mrsbf) |
 | **🎥 Video Software** | **Recut** | Quickly edit videos by automatically cutting pauses | [👉 Get Deal](https://getrecut.com/?ref=mrsbf) |
 | **🎥 Video Software** | **FaceScreen** | Show your face and brand on screen on top of everything else. | [👉 Get Deal](https://facescreenapp.com) |
@@ -273,6 +275,8 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **🗣️ Social** | **TranscriptBunny** | YouTube transcript API - Extract transcripts from any YouTube video with timestamps and text. Fast, reliable API for developers who want to ship fast | [👉 Get Deal](https://www.transcriptbunny.com) |
 | **🗣️ Social** | **Yescaptions** | Add studio-grade captions to your short videos in seconds | [👉 Get Deal](https://yescaptions.com/) |
 | **🗣️ Social** | **Kindest** | Keep strong relationships with your friends and family. Kindest helps you start and keep track of healthy and fun habits to nurture connections with your loved ones. | [👉 Get Deal](https://www.kindest.app/) |
+| **🗣️ Social** | **TrendPost** | AI-powered social media automation platform that helps you manage and sync posts across multiple platforms like Twitter and LinkedIn. Schedule content, manage multiple accounts, and enable automatic sharing with AI-generated captions and viral hooks to maximize engagement. | [👉 Get Deal](https://trendpost.co) |
+| **🗣️ Social** | **Protego for Reddit** | Safari Web Extension that filters unwanted content on Reddit. Block posts by keywords and domains, hide ads and promoted content. Works on old and new Reddit across macOS, iOS, iPadOS, and visionOS. | [👉 Get Deal](https://apps.apple.com/us/app/protego-for-reddit/id6737959724?mt=12) |
 | **🎓 Reference & Education** | **PDF Pals** | Instantly chat with any PDF on your Mac. Native, fast and respect your privacy. | [👉 Get Deal](https://pdfpals.com/?utm_source=mrsbf) |
 | **🎓 Reference & Education** | **Mathy - Math Answer Scanner** | Your pocket math tutor that solves and explains equations instantly from text or a photo. | [👉 Get Deal](https://apps.apple.com/app/apple-store/id6746950449) |
 | **🎓 Reference & Education** | **Chemy - Chemistry Answers** | Your pocket chemistry tutor that solves and explains chemistry problems instantly from text or a photo. | [👉 Get Deal](https://apps.apple.com/app/apple-store/id6747715456) |
@@ -319,6 +323,7 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **🎁 Bundles** | **MGC UI** | Design system and UI Kit for Figma | [👉 Get Deal](https://mgcui.framer.website/?utm_source=mrsbf) |
 | **🎁 Bundles** | **MGC ICON** | Carefully crafted icon pack collection featuring over 14,000 high-quality vector icons | [👉 Get Deal](https://mgc.mingcute.com/?utm_source=mrsbf) |
 | **🎶 Creative content** | **New Row Template** | Example description | [👉 Get Deal](https://example.com/?utm_source=mrsbf) |
+| **🎶 Creative content** | **Midjourney Prompts, Video, SREF Codes Library and Guides** | Hand-picked 1,380 sref codes, 5,526 prompts and art Guide to spark your creativity! | [👉 Get Deal](https://promptsref.com/?utm_source=bf) |
 | **🤑 Finance** | **SubManager** | Track your subscriptions in one place on all your Apple devices and get notified whenever a subscription is due for renewal. | [👉 Get Deal](https://submanager.app) |
 | **🤑 Finance** | **Capitally** | Wealth tracker for assets, liabilities, and stock options, allowing for deep analysis and control for portfolios of any size | [👉 Get Deal](https://www.mycapitally.com?ref=awsm-bfd&discount=BLACKWEEK25) |
 | **🤑 Finance** | **Vexly** | Track all your subscriptions in one place. Get reminded 7 days before renewals, set budgets, and avoid surprise charges. No bank connections required - privacy-first design. | [👉 Get Deal](https://vexly.app) |
