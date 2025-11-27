@@ -83,21 +83,50 @@ def generate_markdown(deals):
 
 Here is a curated list of the best Black Friday deals for developers, macOS/iOS software, and books.
 
+> **✨ NEW: [View Interactive Version with Filters →](https://nbajpai-code.github.io/latest-it-cert-deals/blackfriday.html)**  
+> Filter by category, search deals, and enjoy a better browsing experience!
+
 ## 🏷️ Active Deals
 
-| Category | Deal | Description | Link |
-|:---|:---|:---|:---:|
+**Table of Contents**
+
 """
-    
+    # Group deals by category
+    grouped_deals = {}
     for deal in deals:
-        # Create a nice button for the link
-        link_btn = f"[👉 Get Deal]({deal['link']})"
+        cat = deal['category']
+        if cat not in grouped_deals:
+            grouped_deals[cat] = []
+        grouped_deals[cat].append(deal)
+    
+    sorted_categories = sorted(grouped_deals.keys())
+    
+    # Generate TOC
+    for cat in sorted_categories:
+        # Create anchor link (simple version matching reformat script)
+        anchor = cat.lower().replace(' ', '-').replace('🛠', '').replace('🤖', '').replace('📢', '').replace('🔒', '').replace('🎛', '').replace('📌', '').replace('🎥', '').replace('🎨', '').replace('🏝️', '').replace('🗣️', '').replace('🎓', '').replace('📖', '').replace('👩‍🎓', '').replace('📈', '').replace('🏃', '').replace('🎁', '').replace('🎶', '').replace('🤑', '').replace('🗺️', '').replace('🔎', '').replace('🏡', '').replace('🕹', '').strip()
+        anchor = re.sub(r'-+', '-', anchor)
+        md += f"- [{cat}](#{anchor})\n"
+    
+    md += "\n"
+    
+    # Generate Category Tables
+    for cat in sorted_categories:
+        md += f"### {cat}\n\n"
+        md += "| Deal | Description | Link |\n"
+        md += "|:---|:---|:---:|\n"
         
-        # Escape pipes in description to not break table
-        desc = deal['description'].replace('|', '\|')
-        title = deal['title'].replace('|', '\|')
+        for deal in grouped_deals[cat]:
+            # Create a nice button for the link
+            link_btn = f"[👉 Get Deal]({deal['link']})"
+            
+            # Escape pipes in description to not break table
+            desc = deal['description'].replace('|', '\|')
+            title = deal['title'].replace('|', '\|')
+            
+            md += f"| **{title}** | {desc} | {link_btn} |\n"
         
-        md += f"| **{deal['category']}** | **{title}** | {desc} | {link_btn} |\n"
+        md += "\n"
         
     md += """
 ---
