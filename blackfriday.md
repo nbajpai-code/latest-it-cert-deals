@@ -1,7 +1,7 @@
 # 🛍️ Black Friday & Cyber Monday Deals 2025
 
 > **Auto-updated hourly** from Nov 1 to Dec 15.
-> Last updated: `2025-11-27 13:34:09 UTC`
+> Last updated: `2025-11-27 14:23:27 UTC`
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/nbajpai-code/latest-it-cert-deals/graphs/commit-activity)
@@ -59,6 +59,9 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **🛠 Development Software** | **CodexUse** | Desktop companion for the Codex CLI—switch profiles instantly, reopen chats by project, see live rate-limit telemetry, and manage MCP servers without JSON edits. | [👉 Get Deal](https://codexuse.com/?utm_source=mrsbf) |
 | **🛠 Development Software** | **shadcn/studio** | Fully customizable shadcn ui Components, Blocks, Figma UI Kit, MCP, Templates and AI Powered Theme Generator | [👉 Get Deal](https://shadcnstudio.com) |
 | **🛠 Development Software** | **FlyonUI** | Fully customizable Tailwind Components, Blocks, Figma UI Kit, MCP, & Templates | [👉 Get Deal](https://flyonui.com) |
+| **🛠 Development Software** | **VerifyForge** | Email Validation API - Verify email addresses in real-time with high accuracy | [👉 Get Deal](https://verifyforge.com/) |
+| **🛠 Development Software** | **Pushever** | GUI tool to test iOS push notifications | [👉 Get Deal](https://pushever.app) |
+| **🛠 Development Software** | **Beyond Compare** | Beyond Compare is a software application used by developers, system administrators and others to compare, merge, and synchronize data.  It runs on Windows, macOS, and Linux. | [👉 Get Deal](https://www.scootersoftware.com/sales/promo) |
 | **🤖 AI Tools** | **BoltAI** | Best AI client for Mac. Instantly switch between 300+ AI models. Feature-packed, Native Performance, Private by default. | [👉 Get Deal](https://boltai.com/?utm_source=mrsbf) |
 | **🤖 AI Tools** | **TypingMind** | Chat UI for ChatGPT, Claude, Gemini to use with your API key. Support MCP, multi-model, Artifact, Projects, Vision, Canvas, AI agents builder, DALL-E, Plugins, etc. | [👉 Get Deal](https://www.typingmind.com/?utm_source=mrsbf) |
 | **🤖 AI Tools** | **RabbitHoles AI** | Chat with AI models on an Infinite Canvas. Bring your own API keys for ChatGPT, Claude, Gemini, xAI, OpenRouter, Groq, etc. Local stored | [👉 Get Deal](https://www.rabbitholes.ai/?utm_source=mrsbf) |
@@ -97,6 +100,8 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **🤖 AI Tools** | **Backona AI** | Backona AI helps you turn marketing data into clear, actionable insights. It connects your key platforms like Google Analytics and advertising channels into one smart chat solution. | [👉 Get Deal](https://backona.com/?utm_source=black-friday-deals-github&utm_medium=sale-list&utm_campaign=blackfriday2025) |
 | **🤖 AI Tools** | **PromptKit** | Create, organize, and use prompts with top AI models while building your personal prompt library. | [👉 Get Deal](https://www.promptkit.app) |
 | **🤖 AI Tools** | **Enconvo** | The Always‑Online AI Companion That Knows You Best, contextually aware of your screen and apps, delivering the perfect response to automate your complex tasks. | [👉 Get Deal](https://enconvo.com) |
+| **🤖 AI Tools** | **Semantic Pen** | AI Content Writer - Generate high-quality content with AI | [👉 Get Deal](https://www.semanticpen.com/) |
+| **🤖 AI Tools** | **Pesu.ai** | Pesu.ai helps recruiters and HR teams evaluate candidates in real time, using AI to automatically create and score skill-based assessments. | [👉 Get Deal](https://pesu.payanai.com/) |
 | **🛠 Marketing Software** | **viral.app** | UGC analytics platform to track TikTok, Instagram, and YouTube performance for brands and agencies. | [👉 Get Deal](https://viral.app) |
 | **🛠 Marketing Software** | **ContentStudio.io** | ContentStudio is a unified social media and content marketing platform that helps brands and teams plan, create, publish, and analyse content. With smart scheduling, visual content calendars, AI-powered caption and image generation, and analytics, it helps you scale content creation while keeping quality and strategy intact. | [👉 Get Deal](https://contentstudio.io/black-friday) |
 | **🛠 Marketing Software** | **Replug.io** | Replug.io is a link management and branded short link platform tailored for marketers and agencies. It offers custom branded short links, bio-link pages, QR codes, link analytics, A/B testing, retargeting pixels, and white-label capabilities, so you can turn every link into a measurable marketing asset and boost conversions from clicks. | [👉 Get Deal](https://replug.io/black-friday) |
@@ -157,6 +162,8 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **🎛 Utility Software** | **BetterDisplay Pro 4** | Popular display management app for macOS. Flexible scaling, virtual screens, brightness upscaling, image adjustments, groups, EDID, color modes, DDC etc. | [👉 Get Deal](https://betterdisplay.pro) |
 | **🎛 Utility Software** | **BetterNotif** | MacOS Stripe Real Time Notifications | [👉 Get Deal](https://www.betternotif.app/) |
 | **🎛 Utility Software** | **Orbitime** | Orbitime allows you to track your friend’s timezone. World clock app with widgets | [👉 Get Deal](https://apps.apple.com/in/app/orbitime-world-clock-widget/id6463491213) |
+| **🎛 Utility Software** | **Vidimote for Safari** | Advanced playback, speed controls & skip for web videos in Safari (iOS & macOS) | [👉 Get Deal](https://apps.apple.com/app/vidimote-for-safari/id1585702412) |
+| **🎛 Utility Software** | **Remote Buddy 2** | Control apps, web videos and more on your Mac – from your iPhone, Siri Remote, iPad, Apple TV, Apple Remote and many other remote controls. | [👉 Get Deal](https://www.iospirit.com/products/remotebuddy/) |
 | **📌 Productivity Software** | **Tiny Shield** | Alternative to Little Snitch Mini - See all traffic from your Mac and block it | [👉 Get Deal](https://tinyshield.proxyman.com/?utm_source=black-friday-2025) |
 | **📌 Productivity Software** | **Anybox** | Bookmarking App on macOS and iOS | [👉 Get Deal](https://anybox.app) |
 | **📌 Productivity Software** | **Capture - Quick Notes** | Easily capture your thoughts & ideas on the go and export them to your favourite apps. | [👉 Get Deal](https://apps.apple.com/app/apple-store/id6458535284) |
@@ -218,6 +225,8 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **📌 Productivity Software** | **ToMoment** | Track every important moment with unlimited countdowns and live updates that keep you perfectly on time. | [👉 Get Deal](https://apps.apple.com/ar/app/event-countdown-tomoment/id6751402161?l=en-GB) |
 | **📌 Productivity Software** | **Note** | Keep what you care most about in focus with this minimalist notes app & widget. It’s like a pinned/sticky note in its own app, for goals, ideas, reminders, or to-do lists. | [👉 Get Deal](https://apps.apple.com/app/note/id1602765272) |
 | **📌 Productivity Software** | **Mailbird** | The Best Email client for Windows and Mac. Bring all your email accounts, calendars, and apps into one clean workspace. Stay focused, move faster. | [👉 Get Deal](https://www.getmailbird.com/) |
+| **📌 Productivity Software** | **Spencer** | Save & restore window positions — across all virtual Desktops. Launch the right apps, hide others, and adjust number of Desktops to match your saved setup. Create layouts for different display setups and different tasks to stay organized and focused. | [👉 Get Deal](https://macspencer.app) |
+| **📌 Productivity Software** | **Tabhive** | Tabhive is a Chrome extension that helps you organize your tabs and manage your links | [👉 Get Deal](https://www.tabhive.app/) |
 | **🎥 Video Software** | **TranslateMom** | Instantly caption, translate, or dub HD videos in 100+ languages with natural voices. | [👉 Get Deal](https://translatemom.com/?utm_source=mrsbf) |
 | **🎥 Video Software** | **Recut** | Quickly edit videos by automatically cutting pauses | [👉 Get Deal](https://getrecut.com/?ref=mrsbf) |
 | **🎥 Video Software** | **FaceScreen** | Show your face and brand on screen on top of everything else. | [👉 Get Deal](https://facescreenapp.com) |
@@ -289,6 +298,8 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **👩‍🎓 Courses and Videos** | **How To Test Frontend** | Learn how to write and maintain tests for your frontend React based app | [👉 Get Deal](https://howtotestfrontend.com/) |
 | **👩‍🎓 Courses and Videos** | ****pwn.guide**** | Learn cybersecurity from more than 150+ tutorials, ranging from web, hardware, wireless... hacking to forensics, cryptography, defense & **certification training** (for certificates like the [CompTIA Security+ SY0-701](https://pwn.guide/certs/sy0-701) | [👉 Get Deal](https://pwn.guide) |
 | **👩‍🎓 Courses and Videos** | ****pwn.guide**** | Learn hacking from 150+ tutorials, ranging from web, wireless, hardware... hacking to forensics, defense & certitfication training (CompTIA Security+ SY0-701 for example) | [👉 Get Deal](https://pwn.guide) |
+| **👩‍🎓 Courses and Videos** | **Point-Free** | A video series exploring advanced topics in the Swift programming language, hosted by industry experts. | [👉 Get Deal](https://www.pointfree.co) |
+| **👩‍🎓 Courses and Videos** | **Blender 3D Courses, Polygon Runway** | Courses that finally make Blender click. Learn 3D with clarity and confidence | [👉 Get Deal](https://polygonrunway.com/) |
 | **📈 Business Software** | **Umami Manager** | Monitor & Analyze & Manage your Umami Analytics on the go. Available for iOS & iPadOS. | [👉 Get Deal](https://apple.co/40MP50F) |
 | **📈 Business Software** | **Motherboard** | Motherboard brings all your key metrics into one dashboard. Works with any website. Saves you hours every week. Needs zero coding. | [👉 Get Deal](https://trymotherboard.com) |
 | **📈 Business Software** | **Reckord** | Reckord helps users to create professional invoices in seconds, manage income and expenses, and track their business performance. It also supports multiple languages and currencies to make invoicing accessible for users around the world. | [👉 Get Deal](https://apps.apple.com/us/app/id6744819252) |
