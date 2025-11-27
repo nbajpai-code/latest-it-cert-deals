@@ -70,8 +70,13 @@ def parse_aws_training():
     keywords = ['exam', 'certification', 'beta', 'free', 'discount', 'voucher', 'retake']
     
     for item in items:
-        title = item.title.text
-        link = item.link.text
+        title = item.title.text if item.title else ""
+        link = item.link.text if item.link else ""
+        
+        # Skip if no pubDate
+        if not item.pubDate:
+            continue
+            
         pub_date_str = item.pubDate.text
         
         try:
