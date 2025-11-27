@@ -1,7 +1,7 @@
 # 🛍️ Black Friday & Cyber Monday Deals 2025
 
 > **Auto-updated hourly** from Nov 1 to Dec 15.
-> Last updated: `2025-11-27 07:23:37 UTC`
+> Last updated: `2025-11-27 08:32:17 UTC`
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/nbajpai-code/latest-it-cert-deals/graphs/commit-activity)
@@ -58,6 +58,7 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **🛠 Development Software** | **AppCatalystRN** | React Native/Expo Cross Platform Starter Kit | [👉 Get Deal](https://appcatalystrn.com/) |
 | **🛠 Development Software** | **CodexUse** | Desktop companion for the Codex CLI—switch profiles instantly, reopen chats by project, see live rate-limit telemetry, and manage MCP servers without JSON edits. | [👉 Get Deal](https://codexuse.com/?utm_source=mrsbf) |
 | **🛠 Development Software** | **shadcn/studio** | Fully customizable shadcn ui Components, Blocks, Figma UI Kit, MCP, Templates and AI Powered Theme Generator | [👉 Get Deal](https://shadcnstudio.com) |
+| **🛠 Development Software** | **FlyonUI** | Fully customizable Tailwind Components, Blocks, Figma UI Kit, MCP, & Templates | [👉 Get Deal](https://flyonui.com) |
 | **🤖 AI Tools** | **BoltAI** | Best AI client for Mac. Instantly switch between 300+ AI models. Feature-packed, Native Performance, Private by default. | [👉 Get Deal](https://boltai.com/?utm_source=mrsbf) |
 | **🤖 AI Tools** | **TypingMind** | Chat UI for ChatGPT, Claude, Gemini to use with your API key. Support MCP, multi-model, Artifact, Projects, Vision, Canvas, AI agents builder, DALL-E, Plugins, etc. | [👉 Get Deal](https://www.typingmind.com/?utm_source=mrsbf) |
 | **🤖 AI Tools** | **RabbitHoles AI** | Chat with AI models on an Infinite Canvas. Bring your own API keys for ChatGPT, Claude, Gemini, xAI, OpenRouter, Groq, etc. Local stored | [👉 Get Deal](https://www.rabbitholes.ai/?utm_source=mrsbf) |
@@ -106,6 +107,8 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **🛠 Marketing Software** | **Snov.io** | Snov.io is sales automation platform to find, verify, and manage leads, run personalized email campaigns. | [👉 Get Deal](https://snov.io/) |
 | **🛠 Marketing Software** | **Appfigures** | ASO, Apple Ads Optimization, and App Intelligence tools to help you get more downloads. | [👉 Get Deal](https://appfigures.com?utm_source=mrsbf) |
 | **🛠 Marketing Software** | **AnimAds** | Turn Views into Clicks with Animated Ads | [👉 Get Deal](https://animads.app/) |
+| **🛠 Marketing Software** | **Mondial Relay WooCommerce** | A WordPress plugin for the Mondial Relay shipping provider in Europe. | [👉 Get Deal](https://www.wcmultishipping.com/mondial-relay-woocommerce) |
+| **🛠 Marketing Software** | **Best time to post Reddit** | Reddit tool to find the best time to post on Reddit so you can maximize engagement. | [👉 Get Deal](https://reddit.postwatch.app) |
 | **:tophat: Security Software** | **iScan.today** | Discover Hidden Secrets Worth Thousands. | [👉 Get Deal](https://iscan.today/?utm_source=mrsbf) |
 | **:tophat: Security Software** | **SimpleumSafe** | SimpleumSafe protects the moments and documents that are nobody else's business: intimate photos that shouldn't appear in the photo app. Copies of ID cards. Travel documents. Medical records. Tax documents. | [👉 Get Deal](https://simpleum.com/en/?utm_source=bf25) |
 | **:tophat: Security Software** | **Beagle Security** | Beagle Security is an AI-powered automated pentesting platform that simulates real-world attacks to uncover vulnerabilities in web apps, APIs, and GraphQL. With agentic AI agents, it streamlines testing, analyzes results, and delivers actionable insights for smarter vulnerability management. | [👉 Get Deal](https://beaglesecurity.com/black-friday-sale) |
@@ -152,6 +155,8 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **🎛 Utility Software** | **Smart Photo Cleaner: Sardis** | iPhone Photo And Video Cleaner + Storage Optimizer. | [👉 Get Deal](https://apps.apple.com/tr/app/smart-photo-cleaner-sardis/id6749212207) |
 | **🎛 Utility Software** | **Weather mini** | Smart weather cards for iPhone, iPad, Mac, and Vision Pro. | [👉 Get Deal](https://weathermini.app/?utm_source=black-friday-2025) |
 | **🎛 Utility Software** | **BetterDisplay Pro 4** | Popular display management app for macOS. Flexible scaling, virtual screens, brightness upscaling, image adjustments, groups, EDID, color modes, DDC etc. | [👉 Get Deal](https://betterdisplay.pro) |
+| **🎛 Utility Software** | **BetterNotif** | MacOS Stripe Real Time Notifications | [👉 Get Deal](https://www.betternotif.app/) |
+| **🎛 Utility Software** | **Orbitime** | Orbitime allows you to track your friend’s timezone. World clock app with widgets | [👉 Get Deal](https://apps.apple.com/in/app/orbitime-world-clock-widget/id6463491213) |
 | **📌 Productivity Software** | **Tiny Shield** | Alternative to Little Snitch Mini - See all traffic from your Mac and block it | [👉 Get Deal](https://tinyshield.proxyman.com/?utm_source=black-friday-2025) |
 | **📌 Productivity Software** | **Anybox** | Bookmarking App on macOS and iOS | [👉 Get Deal](https://anybox.app) |
 | **📌 Productivity Software** | **Capture - Quick Notes** | Easily capture your thoughts & ideas on the go and export them to your favourite apps. | [👉 Get Deal](https://apps.apple.com/app/apple-store/id6458535284) |
@@ -232,6 +237,7 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **🎨 Graphic Software** | **Squash 3** | Powerful Batch Photo Editor. Quickly batch convert, and resize images. Apply layered watermarks and filters, rename files, remove or edit private metadata, and so much more. | [👉 Get Deal](https://realmacsoftware.com/squash/) |
 | **🎨 Graphic Software** | **Animock: 3D Mockup Maker** | Turn screenshots and recordings into stunning 3D mockups and videos. Showcase your content in animated, realistic device frames — perfect for App Store shots, preview videos, social posts, and client presentations. | [👉 Get Deal](https://apps.apple.com/app/id6471911398) |
 | **🎨 Graphic Software** | **ImageFramer** | Easily add frames, mats and borders to your art (Mac) | [👉 Get Deal](https://imageframer.net) |
+| **🎨 Graphic Software** | **ScreenSnap Pro** | Turn ordinary screenshots into stunning visuals in seconds. Add gorgeous backgrounds, annotate with 14 tools, and cloud share instantly (Mac). | [👉 Get Deal](https://www.screensnap.pro/) |
 | **🏝️ Lifestyle** | **Cuts - Hairstyle Try On Men** | The easiest way to try instant men’s haircuts and colors with a quick selfie. | [👉 Get Deal](https://apps.apple.com/app/apple-store/id6753205043) |
 | **🏝️ Lifestyle** | **Gardenly - AI Garden Design** | Transform your garden instantly from one photo with photorealistic garden designs. | [👉 Get Deal](https://apps.apple.com/app/apple-store/id6747178697) |
 | **🏝️ Lifestyle** | **BorderPrep** | Arrive stress-free in any country | [👉 Get Deal](https://borderprep.com) |
@@ -248,6 +254,7 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **🏝️ Lifestyle** | **Calm My Dog** | Ease your dog's separation anxiety with daily exercises that focus on desensitization | [👉 Get Deal](https://calmmydog.app/) |
 | **🏝️ Lifestyle** | **Heart2Heart – Couples Questions** | Build a deeper connection with your partner | [👉 Get Deal](https://www.couplequestions.com/) |
 | **🏝️ Lifestyle** | **Teletable** | Teletable brings live football scores, standings and stats in a retro teletext style | [👉 Get Deal](https://apps.apple.com/us/app/teletable-football-teletext/id6502572402) |
+| **🏝️ Lifestyle** | **Momentum** | Momentum is a habit tracker where you use photos, not checkboxes | [👉 Get Deal](https://apps.apple.com/us/app/photo-habit-tracker-momentum/id6746295673) |
 | **🗣️ Social** | **Mockly** | Create realistic one-on-one and group chat mockups (and videos) for WhatsApp, Messenger, Instagram, iMessage, Telegram, Slack, and more. Ideal for marketing, social media, creators, and filmmakers. | [👉 Get Deal](https://getmockly.com/?utm_source=mrsbf) |
 | **🗣️ Social** | **Glass** | Discover a new home for your photography with Glass — the subscription-based, community-driven platform designed by photographers, for photographers. | [👉 Get Deal](https://glass.photo/) |
 | **🗣️ Social** | **Nuelink** | Nuelink is a social media management platform that automates scheduling, publishing, and content workflows across major platforms like Instagram, Twitter/X, LinkedIn, TikTok, and YouTube. It offers powerful features such as bulk scheduling, post recycling, analytics, content automation, integrations with tools like Zapier and n8n, AI-powered caption generation, and team collaboration tools. All designed to simplify content management and scale social media growth efficiently. | [👉 Get Deal](https://www.nuelink.com/) |
@@ -315,6 +322,7 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **🔎 SEO** | **GemRank** | Be the brand AI recommends Track how ChatGPT, Gemini, Claude, and Perplexity talk about your brand, and get weekly visibility reports. | [👉 Get Deal](https://gemrank.co/) |
 | **🔎 SEO** | **Effortless Backlinks** | We submit your product to 100 high-quality directories for you. Increase domain authority and bring steady, qualified traffic without wasting 30+ hours on manual submissions. | [👉 Get Deal](https://www.effortlessbacklinks.com/) |
 | **🔎 SEO** | **SnowSEO** | SnowSEO handles the tedious parts of growing your brand organically. It automatically researches keywords, creates content, tracks rankings, and optimizes how you appear in both Google searches and AI responses. | [👉 Get Deal](https://snowseo.com) |
+| **🔎 SEO** | **CheckMySEO** | Generate SEO‑optimized content and blog posts tailored to your keywords in minutes. | [👉 Get Deal](https://checkmyseo.io) |
 | **🏡 Home Automation** | **ChezAI – Home Design** | Home Design & Remodel: ChezAI is your AI home designer and planner. Visualize, design, remodel, and transform your space like a pro with cutting-edge AI. | [👉 Get Deal](https://apps.apple.com/us/app/id6740142224) |
 | **🕹 Games** | **SecDim Play** | Get 35% OFF for the 1st Year. Valid from 20th Nov to 5th Dec | [👉 Get Deal](https://play.secdim.com) |
 
