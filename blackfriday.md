@@ -1,7 +1,7 @@
 # 🛍️ Black Friday & Cyber Monday Deals 2025
 
 > **Auto-updated hourly** from Nov 1 to Dec 15.
-> Last updated: `2025-11-27 14:41:54 UTC`
+> Last updated: `2025-11-27 20:22:57 UTC`
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/nbajpai-code/latest-it-cert-deals/graphs/commit-activity)
@@ -295,6 +295,7 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **Spencer** | Save & restore window positions — across all virtual Desktops. Launch the right apps, hide others, and adjust number of Desktops to match your saved setup. Create layouts for different display setups and different tasks to stay organized and focused. | [👉 Get Deal](https://macspencer.app) |
 | **Tabhive** | Tabhive is a Chrome extension that helps you organize your tabs and manage your links | [👉 Get Deal](https://www.tabhive.app/) |
 | **SwiftBiu** | SwiftBiu is a text efficiency tool for macOS, select text in any app and a customizable extended toolbar pops up to make common operations "one step". Supports AI multimodal (text-to-text, text-to-graph), AppleScript/javascript plugins, html extension applets. | [👉 Get Deal](https://swiftbiu.com) |
+| **Craft Docs** | Create stunning documents, manage tasks, build dynamic collections, and structure your ideas your way. | [👉 Get Deal](https://www.craft.do/) |
 
 ### 📖 Books
 
@@ -477,6 +478,7 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **Pesu.ai** | Pesu.ai helps recruiters and HR teams evaluate candidates in real time, using AI to automatically create and score skill-based assessments. | [👉 Get Deal](https://pesu.payanai.com/) |
 | **CallCow AI** | AI voice assistant that sounds just like you. Clone your voice in 30 seconds and replace your traditional voice mail. | [👉 Get Deal](https://www.callcow.ai) |
 | **Monologue** | Effortless voice dictation that adapts to your style, context & vocabulary so you can work 3× faster. | [👉 Get Deal](https://monologue.to) |
+| **RemoveMark** | Remove text, handwritten notes, and watermarks from images, plus remove watermarks from videos in a few clicks. | [👉 Get Deal](https://removemark.io) |
 
 
 ---
