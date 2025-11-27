@@ -35,7 +35,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests beautifulsoup4 lxml python-dateutil
+          pip install requests beautifulsoup4 python-dateutil
 
       - name: Search for IT Certification Deals
         id: search_deals
