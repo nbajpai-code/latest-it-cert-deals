@@ -21,32 +21,52 @@ def parse_deals(content):
     
     lines = content.split('\n')
     current_category = "General"
+    in_toc = False
     
     for line in lines:
         line = line.strip()
         
         # Check for headers as categories
         if line.startswith('##'):
-            current_category = line.lstrip('#').strip()
+            header = line.lstrip('#').strip()
+            if "Table of Contents" in header:
+                in_toc = True
+                continue
+            else:
+                in_toc = False
+                current_category = header
             continue
             
-        # Check for list items with links
-        match = re.search(r'-\s*\[(.*?)\]\((.*?)\)\s*(?:-|:)?\s*(.*)', line)
-        if match:
-            title = match.group(1).strip()
-            link = match.group(2).strip()
-            description = match.group(3).strip()
-            
-            # Clean up description if it starts with dash or colon
-            if description.startswith('-') or description.startswith(':'):
-                description = description[1:].strip()
+        # Skip if we are in TOC
+        if in_toc:
+            continue
+
+        # Check for table rows
+        if line.startswith('|'):
+            # Skip header separator lines
+            if '---' in line:
+                continue
                 
-            deals.append({
-                'category': current_category,
-                'title': title,
-                'link': link,
-                'description': description
-            })
+            parts = [p.strip() for p in line.split('|')]
+            # Expected format: | Emoji | [Title](Link) | Description | Discount |
+            # parts will be ['', 'Emoji', '[Title](Link)', 'Description', 'Discount', '']
+            
+            if len(parts) >= 5:
+                link_col = parts[2]
+                description = parts[3]
+                
+                # Extract title and link from [Title](Link)
+                match = re.search(r'\[(.*?)\]\((.*?)\)', link_col)
+                if match:
+                    title = match.group(1).strip()
+                    link = match.group(2).strip()
+                    
+                    deals.append({
+                        'category': current_category,
+                        'title': title,
+                        'link': link,
+                        'description': description
+                    })
             
     return deals
 
