@@ -1,7 +1,7 @@
 # 🛍️ Black Friday & Cyber Monday Deals 2025
 
 > **Auto-updated hourly** from Nov 1 to Dec 15.
-> Last updated: `2025-11-28 07:22:42 UTC`
+> Last updated: `2025-11-28 08:31:57 UTC`
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/nbajpai-code/latest-it-cert-deals/graphs/commit-activity)
@@ -172,6 +172,7 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **None to Run: Beginner Running Plans** | Achievable Walk/Run training programs for beginner runners. Start running today! | [👉 Get Deal](https://apps.apple.com/us/app/none-to-run-beginner-5k-10k/id1491658094) |
 | **Walk Mate: Weight Loss** | Daily random walking routes in your location. Valid from 13th Nov to 31th Dec | [👉 Get Deal](https://apps.apple.com/redeem?ctx=offercodes&id=6739468121&code=BLCKFRDY25) |
 | **30 Day Workout - QuickFit** | Personalized home workout plans based on your goals. Valid from 23th Nov to 30th Nov | [👉 Get Deal](https://quickfit.bylancer.com/) |
+| **Zenitizer - Meditation Timer** | **Clutter-free meditation timer** designed for *unguided* meditation on iPhone and  Watch. Deep integration with Apple Health, Widgets and Shortcuts. Customizable with soothing sounds. | [👉 Get Deal](https://apps.apple.com/us/app/meditation-timer-zenitizer/id6444767911) |
 
 ### 🏝️ Lifestyle
 
@@ -297,6 +298,8 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **Tabhive** | Tabhive is a Chrome extension that helps you organize your tabs and manage your links | [👉 Get Deal](https://www.tabhive.app/) |
 | **SwiftBiu** | SwiftBiu is a text efficiency tool for macOS, select text in any app and a customizable extended toolbar pops up to make common operations "one step". Supports AI multimodal (text-to-text, text-to-graph), AppleScript/javascript plugins, html extension applets. | [👉 Get Deal](https://swiftbiu.com) |
 | **Craft Docs** | Create stunning documents, manage tasks, build dynamic collections, and structure your ideas your way. | [👉 Get Deal](https://www.craft.do/) |
+| **Timemator** | Timemator automatically tracks work on your Mac, turning app, file & website activity into accurate timesheets. | [👉 Get Deal](https://timemator.com/) |
+| **Daylish - Day Planner** | A delightful day planner that helps you **never be late** again and *flow through your day* with ease. Get ready to leave on time with **smart alarms and timers**. | [👉 Get Deal](https://apps.apple.com/us/app/daylish-visual-schedule/id6751201325) |
 
 ### 📖 Books
 
@@ -481,6 +484,8 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **CallCow AI** | AI voice assistant that sounds just like you. Clone your voice in 30 seconds and replace your traditional voice mail. | [👉 Get Deal](https://www.callcow.ai) |
 | **Monologue** | Effortless voice dictation that adapts to your style, context & vocabulary so you can work 3× faster. | [👉 Get Deal](https://monologue.to) |
 | **RemoveMark** | Remove text, handwritten notes, and watermarks from images, plus remove watermarks from videos in a few clicks. | [👉 Get Deal](https://removemark.io) |
+| **ConsoleX AI** | The ultimate AI studio for creators - all frontier models and creative tools in one place — Gemini 3, Opus 4.5, GPT 5.1, Nano Banana Pro, Sora 2 & Veo 3. | [👉 Get Deal](https://consolex.ai) |
+| **GPT Breeze** | Save hours consuming long content on the web. GPT Breeze Extension summarizes YouTube videos and articles, accelerates your writing, by saving your prompts as one-click shortcuts on browsers. | [👉 Get Deal](https://gptbreeze.io/) |
 
 
 ---
