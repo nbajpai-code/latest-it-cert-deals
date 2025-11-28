@@ -1,7 +1,7 @@
 # 🛍️ Black Friday & Cyber Monday Deals 2025
 
 > **Auto-updated hourly** from Nov 1 to Dec 15.
-> Last updated: `2025-11-28 06:35:45 UTC`
+> Last updated: `2025-11-28 07:22:42 UTC`
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/nbajpai-code/latest-it-cert-deals/graphs/commit-activity)
@@ -273,6 +273,7 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **ExtraDock** | Create unlimited floating Docks for macOS - Perfect for multiple monitors setups | [👉 Get Deal](https://extradock.app) |
 | **Blark** | The best way to take monochrome/black & white pictures and videos on the iPhone and iPad. | [👉 Get Deal](https://blark.app) |
 | **Litur(macOS)** | A designer’s best-kept secret, a developer's best friend. Litur helps you manage and improve your colors and design workflow. | [👉 Get Deal](https://litur.app) |
+| **FiveNotes** | 5 quickly accessed notes. Floating above other apps and looking great with themes. | [👉 Get Deal](https://www.apptorium.com/fivenotes) |
 | **Workspaces 2** | Project-based launcher that opens your files, folders, websites, apps etc. with one click. | [👉 Get Deal](https://www.apptorium.com/workspaces) |
 | **SideNotes** | Take notes on your screen side with no distraction. | [👉 Get Deal](https://www.apptorium.com/sidenotes) |
 | **Lattix** | Lattix is a powerful launcher which helps you to open any app or file with preset layouts across your monitors. | [👉 Get Deal](https://www.lattix.app) |
@@ -431,6 +432,7 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **SubCal** | Manage every subscription in one place with smart reminders and deep link access that keep you in control. | [👉 Get Deal](https://apps.apple.com/ar/app/subscription-tracker-subcal/id6752016485?l=en-GB) |
 | **Subscription Day** | A small but so useful app for your Menu Bar to keep track of your paid subscriptions and analyze statistics. | [👉 Get Deal](https://appps.od.ua/subscription-day/) |
 | **Sumio** | AI-Powered Portfolio & Net Worth Tracker. | [👉 Get Deal](https://www.sumio.app) |
+| **Tilla Premium** | Subscriptions tracking on Android, without any ads or subscriptions required | [👉 Get Deal](https://play.google.com/store/apps/details?id=com.pavelrekun.tilla.premium) |
 
 ### 🤖 AI Tools
 
