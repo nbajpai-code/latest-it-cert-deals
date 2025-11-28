@@ -1,7 +1,7 @@
 # 🛍️ Black Friday & Cyber Monday Deals 2025
 
 > **Auto-updated hourly** from Nov 1 to Dec 15.
-> Last updated: `2025-11-28 17:19:46 UTC`
+> Last updated: `2025-11-28 18:32:03 UTC`
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/nbajpai-code/latest-it-cert-deals/graphs/commit-activity)
@@ -55,6 +55,7 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **Tailkits UI** | Modern library of over 200 customizable Tailwind components | [👉 Get Deal](https://tailkits.com/ui/) |
 | **MGC UI** | Design system and UI Kit for Figma | [👉 Get Deal](https://mgcui.framer.website/?utm_source=mrsbf) |
 | **MGC ICON** | Carefully crafted icon pack collection featuring over 14,000 high-quality vector icons | [👉 Get Deal](https://mgc.mingcute.com/?utm_source=mrsbf) |
+| **Editors' Choice** | 12 Mac essentials that earned their spot by being genuinely brilliant. | [👉 Get Deal](https://unclutterapp.com/bundle/?coupon=UN-BLACKFRIDAY-2025&s=git) |
 
 ### 🎓 Reference & Education
 
@@ -69,6 +70,7 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **Nihongo – Japanese Dictionary** | Modern Japanese dictionary & study tool with fast search, OCR, example sentences, kanji breakdowns, and flashcards. | [👉 Get Deal](https://apps.apple.com/app/nihongo-japanese-dictionary/id881697245) |
 | **Nihongo Lessons** | Step-by-step Japanese course app based on Japanese Level Up (Jalup), taking you from beginner to advanced with sentence-based SRS. | [👉 Get Deal](https://apps.apple.com/app/nihongo-lessons/id1640204242) |
 | **TweetBlink** | AI-powered tweet generator that creates optimized, personalized content. Turn ideas into engaging posts that sound like you | [👉 Get Deal](https://tweetbl.ink) |
+| **Fix My Japanese** | AI powered Japanese grammar checker & teacher. Corrects Japanese mistakes and teaches the reasons for corrections. iOS & Web | [👉 Get Deal](https://fixmyjapanese.com?ref=mRs) |
 
 ### 🎛 Utility Software
 
@@ -120,6 +122,9 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **Orbitime** | Orbitime allows you to track your friend’s timezone. World clock app with widgets | [👉 Get Deal](https://apps.apple.com/in/app/orbitime-world-clock-widget/id6463491213) |
 | **Vidimote for Safari** | Advanced playback, speed controls & skip for web videos in Safari (iOS & macOS) | [👉 Get Deal](https://apps.apple.com/app/vidimote-for-safari/id1585702412) |
 | **Remote Buddy 2** | Control apps, web videos and more on your Mac – from your iPhone, Siri Remote, iPad, Apple TV, Apple Remote and many other remote controls. | [👉 Get Deal](https://www.iospirit.com/products/remotebuddy/) |
+| **CopyMagic** | The smartest, most-intuitive clipboard manager for macOS. | [👉 Get Deal](https://copymagic.app) |
+| **Imgs2PDF** | Convert images to PDF or PDF to images offline. Merge, split, PDFs, with OCR support. | [👉 Get Deal](https://apps.apple.com/app/imgs2pdf-pdf-converter/id6741581868) |
+| **DaisyDisk** | Find out what’s taking up your disk space and recover it in the most efficient and easy way. | [👉 Get Deal](https://unclutterapp.com/bundle/?coupon=UN-BLACKFRIDAY-2025&s=git#DAISYDISK) |
 
 ### 🎥 Video Software
 
@@ -302,6 +307,9 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **Timemator** | Timemator automatically tracks work on your Mac, turning app, file & website activity into accurate timesheets. | [👉 Get Deal](https://timemator.com/) |
 | **Daylish - Day Planner** | A delightful day planner that helps you **never be late** again and *flow through your day* with ease. Get ready to leave on time with **smart alarms and timers**. | [👉 Get Deal](https://apps.apple.com/us/app/daylish-visual-schedule/id6751201325) |
 | **Labs64 NetLicensing** | Elevate your licensing & monetization | [👉 Get Deal](https://netlicensing.io/blog/2025/11/25/labs64-netlicensing-cyber-weeks-2025/) |
+| **Unclutter** | A smart space on your desktop to store and organize your everyday files, notes, and clipboard data. | [👉 Get Deal](https://unclutterapp.com/bundle/?coupon=UN-BLACKFRIDAY-2025&s=git#UNCLUTTER) |
+| **MenubarX** | Powful macOS menu bar browser that helps you to add any web pages to the menu bar just like Native Apps. | [👉 Get Deal](https://menubarx.app/) |
+| **DockX** | Magic app that allows you to display any content in the Dock and Menu bar, you can just sneak a peek anytime without opening any app. | [👉 Get Deal](https://dockx.app/) |
 
 ### 📖 Books
 
@@ -488,6 +496,8 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **RemoveMark** | Remove text, handwritten notes, and watermarks from images, plus remove watermarks from videos in a few clicks. | [👉 Get Deal](https://removemark.io) |
 | **ConsoleX AI** | The ultimate AI studio for creators - all frontier models and creative tools in one place — Gemini 3, Opus 4.5, GPT 5.1, Nano Banana Pro, Sora 2 & Veo 3. | [👉 Get Deal](https://consolex.ai) |
 | **GPT Breeze** | Save hours consuming long content on the web. GPT Breeze Extension summarizes YouTube videos and articles, accelerates your writing, by saving your prompts as one-click shortcuts on browsers. | [👉 Get Deal](https://gptbreeze.io/) |
+| **VisionGPT Extension** | VisionGPT Ext is a Chrome extension for GPT-powered screenshot analysis (BYOK) | [👉 Get Deal](https://www.visiongpthq.com) |
+| **Grammarly Pro** | The document editor that combines AI Chat with specialized agents to build on your writing, voice, and ideas. | [👉 Get Deal](https://www.grammarly.com/limited-time-offer) |
 
 
 ---
