@@ -1,7 +1,7 @@
 # 🛍️ Black Friday & Cyber Monday Deals 2025
 
 > **Auto-updated hourly** from Nov 1 to Dec 15.
-> Last updated: `2025-11-28 09:24:15 UTC`
+> Last updated: `2025-11-28 10:25:55 UTC`
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/nbajpai-code/latest-it-cert-deals/graphs/commit-activity)
@@ -135,6 +135,7 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **Motionik** | A screen recorder for Windows & macOS with a built-in editor for creating engaging product demos & tutorials with auto zoom, cursor effects & more. | [👉 Get Deal](https://motionik.com) |
 | **TopazLabs** | Best finishing platform for every image and video you create, shoot and generate | [👉 Get Deal](https://www.topazlabs.com/) |
 | **Rendley** | Rendley is an online video editor that brings together all the editing tools you need to create great video content. | [👉 Get Deal](https://rendley.com?utm_source=mRs-) |
+| **NanoPhoto.AI** | Making AI Photo and Video editing simple and efficient — Sora 2 Video, Veo3.1, Nano Banana Pro, Video Reverse Prompt Generator, and more. | [👉 Get Deal](https://nanophoto.ai/pricing?utm_source=Black-Friday-Deals) |
 
 ### 🎨 Graphic Software
 
@@ -300,6 +301,7 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **Craft Docs** | Create stunning documents, manage tasks, build dynamic collections, and structure your ideas your way. | [👉 Get Deal](https://www.craft.do/) |
 | **Timemator** | Timemator automatically tracks work on your Mac, turning app, file & website activity into accurate timesheets. | [👉 Get Deal](https://timemator.com/) |
 | **Daylish - Day Planner** | A delightful day planner that helps you **never be late** again and *flow through your day* with ease. Get ready to leave on time with **smart alarms and timers**. | [👉 Get Deal](https://apps.apple.com/us/app/daylish-visual-schedule/id6751201325) |
+| **Labs64 NetLicensing** | Elevate your licensing & monetization | [👉 Get Deal](https://netlicensing.io/blog/2025/11/25/labs64-netlicensing-cyber-weeks-2025/) |
 
 ### 📖 Books
 
