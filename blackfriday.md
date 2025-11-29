@@ -1,7 +1,7 @@
 # 🛍️ Black Friday & Cyber Monday Deals 2025
 
 > **Auto-updated hourly** from Nov 1 to Dec 15.
-> Last updated: `2025-11-29 08:28:56 UTC`
+> Last updated: `2025-11-29 09:22:31 UTC`
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/nbajpai-code/latest-it-cert-deals/graphs/commit-activity)
@@ -418,6 +418,7 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **VerifyForge** | Email Validation API - Verify email addresses in real-time with high accuracy | [👉 Get Deal](https://verifyforge.com/) |
 | **Pushever** | GUI tool to test iOS push notifications | [👉 Get Deal](https://pushever.app) |
 | **Beyond Compare** | Beyond Compare is a software application used by developers, system administrators and others to compare, merge, and synchronize data.  It runs on Windows, macOS, and Linux. | [👉 Get Deal](https://www.scootersoftware.com/sales/promo) |
+| **ThemeSelection** | Fully customizable Admin Templates, UI kits & SaaS Boilerplates | [👉 Get Deal](https://themeselection.com) |
 
 ### 🛠 Marketing Software
 
