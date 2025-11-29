@@ -1,7 +1,7 @@
 # 🛍️ Black Friday & Cyber Monday Deals 2025
 
 > **Auto-updated hourly** from Nov 1 to Dec 15.
-> Last updated: `2025-11-29 07:20:40 UTC`
+> Last updated: `2025-11-29 08:28:56 UTC`
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/nbajpai-code/latest-it-cert-deals/graphs/commit-activity)
@@ -46,6 +46,7 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **SimpleumSafe** | SimpleumSafe protects the moments and documents that are nobody else's business: intimate photos that shouldn't appear in the photo app. Copies of ID cards. Travel documents. Medical records. Tax documents. | [👉 Get Deal](https://simpleum.com/en/?utm_source=bf25) |
 | **Beagle Security** | Beagle Security is an AI-powered automated pentesting platform that simulates real-world attacks to uncover vulnerabilities in web apps, APIs, and GraphQL. With agentic AI agents, it streamlines testing, analyzes results, and delivers actionable insights for smarter vulnerability management. | [👉 Get Deal](https://beaglesecurity.com/black-friday-sale) |
 | **AdverseMonitor** | Real-time threat intelligence platform monitoring 500+ dark web sources, ransomware groups, and data breaches. Get instant alerts when your organization appears in threat actor communications. | [👉 Get Deal](https://adversemonitor.com/) |
+| **DefendFlow** | Comprehensive DNS analysis platform providing deep DNS visibility, historical lookups, threat detection, and streamlined investigation workflows. Built for security teams and researchers. | [👉 Get Deal](https://radar.defendflow.xyz) |
 
 ### 🎁 Bundles
 
@@ -156,6 +157,7 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **Animock: 3D Mockup Maker** | Turn screenshots and recordings into stunning 3D mockups and videos. Showcase your content in animated, realistic device frames — perfect for App Store shots, preview videos, social posts, and client presentations. | [👉 Get Deal](https://apps.apple.com/app/id6471911398) |
 | **ImageFramer** | Easily add frames, mats and borders to your art (Mac) | [👉 Get Deal](https://imageframer.net) |
 | **ScreenSnap Pro** | Turn ordinary screenshots into stunning visuals in seconds. Add gorgeous backgrounds, annotate with 14 tools, and cloud share instantly (Mac). | [👉 Get Deal](https://www.screensnap.pro/) |
+| **Quickshot Photo Editor** | Powerful AI powered photo editor. Edit photos with words, not tools (iOS) | [👉 Get Deal](https://quickshot.photo?ref=mRs/) |
 
 ### 🎶 Creative content
 
@@ -498,6 +500,7 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **GPT Breeze** | Save hours consuming long content on the web. GPT Breeze Extension summarizes YouTube videos and articles, accelerates your writing, by saving your prompts as one-click shortcuts on browsers. | [👉 Get Deal](https://gptbreeze.io/) |
 | **VisionGPT Extension** | VisionGPT Ext is a Chrome extension for GPT-powered screenshot analysis (BYOK) | [👉 Get Deal](https://www.visiongpthq.com) |
 | **Grammarly Pro** | The document editor that combines AI Chat with specialized agents to build on your writing, voice, and ideas. | [👉 Get Deal](https://www.grammarly.com/limited-time-offer) |
+| **Blip AI Pro** | Voice to text dictation app for Mac, Alternative to wispr flow, Type emails, slack, chatGPT, Cursor prompts 4x faster | [👉 Get Deal](https://blipai.app) |
 
 
 ---
