@@ -1,7 +1,7 @@
 # 🛍️ Black Friday & Cyber Monday Deals 2025
 
 > **Auto-updated hourly** from Nov 1 to Dec 15.
-> Last updated: `2025-11-29 14:19:42 UTC`
+> Last updated: `2025-11-29 15:20:52 UTC`
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/nbajpai-code/latest-it-cert-deals/graphs/commit-activity)
@@ -158,6 +158,7 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **ImageFramer** | Easily add frames, mats and borders to your art (Mac) | [👉 Get Deal](https://imageframer.net) |
 | **ScreenSnap Pro** | Turn ordinary screenshots into stunning visuals in seconds. Add gorgeous backgrounds, annotate with 14 tools, and cloud share instantly (Mac). | [👉 Get Deal](https://www.screensnap.pro/) |
 | **Quickshot Photo Editor** | Powerful AI powered photo editor. Edit photos with words, not tools (iOS) | [👉 Get Deal](https://quickshot.photo?ref=mRs/) |
+| **SnapVis** | Transform any screenshot, images into stunning visuals for social media, documentation, product demos, presentations, and more. Add backgrounds, shadows, frames — all in your browser. | [👉 Get Deal](https://www.snapvis.app/) |
 
 ### 🎶 Creative content
 
