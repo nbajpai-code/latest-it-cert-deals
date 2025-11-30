@@ -1,7 +1,7 @@
 # 🛍️ Black Friday & Cyber Monday Deals 2025
 
 > **Auto-updated hourly** from Nov 1 to Dec 15.
-> Last updated: `2025-11-30 11:17:46 UTC`
+> Last updated: `2025-11-30 12:38:13 UTC`
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/nbajpai-code/latest-it-cert-deals/graphs/commit-activity)
@@ -421,6 +421,7 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **Beyond Compare** | Beyond Compare is a software application used by developers, system administrators and others to compare, merge, and synchronize data.  It runs on Windows, macOS, and Linux. | [👉 Get Deal](https://www.scootersoftware.com/sales/promo) |
 | **ThemeSelection** | Fully customizable Admin Templates, UI kits & SaaS Boilerplates | [👉 Get Deal](https://themeselection.com) |
 | **LeapOCR** | Extract Structured Data from Any Document, get markdown or structured data from any PDF, digitize your archives | [👉 Get Deal](https://leapocr.com/) |
+| **Nexty.dev** | Build Your SaaS in Days, Not Weeks | [👉 Get Deal](https://nexty.dev#pricing) |
 
 ### 🛠 Marketing Software
 
