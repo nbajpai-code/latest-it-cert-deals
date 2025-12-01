@@ -1,7 +1,7 @@
 # 🛍️ Black Friday & Cyber Monday Deals 2025
 
 > **Auto-updated hourly** from Nov 1 to Dec 15.
-> Last updated: `2025-11-27 14:41:54 UTC`
+> Last updated: `2025-11-30 18:27:57 UTC`
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/nbajpai-code/latest-it-cert-deals/graphs/commit-activity)
@@ -46,6 +46,7 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **SimpleumSafe** | SimpleumSafe protects the moments and documents that are nobody else's business: intimate photos that shouldn't appear in the photo app. Copies of ID cards. Travel documents. Medical records. Tax documents. | [👉 Get Deal](https://simpleum.com/en/?utm_source=bf25) |
 | **Beagle Security** | Beagle Security is an AI-powered automated pentesting platform that simulates real-world attacks to uncover vulnerabilities in web apps, APIs, and GraphQL. With agentic AI agents, it streamlines testing, analyzes results, and delivers actionable insights for smarter vulnerability management. | [👉 Get Deal](https://beaglesecurity.com/black-friday-sale) |
 | **AdverseMonitor** | Real-time threat intelligence platform monitoring 500+ dark web sources, ransomware groups, and data breaches. Get instant alerts when your organization appears in threat actor communications. | [👉 Get Deal](https://adversemonitor.com/) |
+| **DefendFlow** | Comprehensive DNS analysis platform providing deep DNS visibility, historical lookups, threat detection, and streamlined investigation workflows. Built for security teams and researchers. | [👉 Get Deal](https://radar.defendflow.xyz) |
 
 ### 🎁 Bundles
 
@@ -55,6 +56,7 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **Tailkits UI** | Modern library of over 200 customizable Tailwind components | [👉 Get Deal](https://tailkits.com/ui/) |
 | **MGC UI** | Design system and UI Kit for Figma | [👉 Get Deal](https://mgcui.framer.website/?utm_source=mrsbf) |
 | **MGC ICON** | Carefully crafted icon pack collection featuring over 14,000 high-quality vector icons | [👉 Get Deal](https://mgc.mingcute.com/?utm_source=mrsbf) |
+| **Editors' Choice** | 12 Mac essentials that earned their spot by being genuinely brilliant. | [👉 Get Deal](https://unclutterapp.com/bundle/?coupon=UN-BLACKFRIDAY-2025&s=git) |
 
 ### 🎓 Reference & Education
 
@@ -69,6 +71,7 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **Nihongo – Japanese Dictionary** | Modern Japanese dictionary & study tool with fast search, OCR, example sentences, kanji breakdowns, and flashcards. | [👉 Get Deal](https://apps.apple.com/app/nihongo-japanese-dictionary/id881697245) |
 | **Nihongo Lessons** | Step-by-step Japanese course app based on Japanese Level Up (Jalup), taking you from beginner to advanced with sentence-based SRS. | [👉 Get Deal](https://apps.apple.com/app/nihongo-lessons/id1640204242) |
 | **TweetBlink** | AI-powered tweet generator that creates optimized, personalized content. Turn ideas into engaging posts that sound like you | [👉 Get Deal](https://tweetbl.ink) |
+| **Fix My Japanese** | AI powered Japanese grammar checker & teacher. Corrects Japanese mistakes and teaches the reasons for corrections. iOS & Web | [👉 Get Deal](https://fixmyjapanese.com?ref=mRs) |
 
 ### 🎛 Utility Software
 
@@ -120,6 +123,9 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **Orbitime** | Orbitime allows you to track your friend’s timezone. World clock app with widgets | [👉 Get Deal](https://apps.apple.com/in/app/orbitime-world-clock-widget/id6463491213) |
 | **Vidimote for Safari** | Advanced playback, speed controls & skip for web videos in Safari (iOS & macOS) | [👉 Get Deal](https://apps.apple.com/app/vidimote-for-safari/id1585702412) |
 | **Remote Buddy 2** | Control apps, web videos and more on your Mac – from your iPhone, Siri Remote, iPad, Apple TV, Apple Remote and many other remote controls. | [👉 Get Deal](https://www.iospirit.com/products/remotebuddy/) |
+| **CopyMagic** | The smartest, most-intuitive clipboard manager for macOS. | [👉 Get Deal](https://copymagic.app) |
+| **Imgs2PDF** | Convert images to PDF or PDF to images offline. Merge, split, PDFs, with OCR support. | [👉 Get Deal](https://apps.apple.com/app/imgs2pdf-pdf-converter/id6741581868) |
+| **DaisyDisk** | Find out what’s taking up your disk space and recover it in the most efficient and easy way. | [👉 Get Deal](https://unclutterapp.com/bundle/?coupon=UN-BLACKFRIDAY-2025&s=git#DAISYDISK) |
 
 ### 🎥 Video Software
 
@@ -135,6 +141,7 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **Motionik** | A screen recorder for Windows & macOS with a built-in editor for creating engaging product demos & tutorials with auto zoom, cursor effects & more. | [👉 Get Deal](https://motionik.com) |
 | **TopazLabs** | Best finishing platform for every image and video you create, shoot and generate | [👉 Get Deal](https://www.topazlabs.com/) |
 | **Rendley** | Rendley is an online video editor that brings together all the editing tools you need to create great video content. | [👉 Get Deal](https://rendley.com?utm_source=mRs-) |
+| **NanoPhoto.AI** | Making AI Photo and Video editing simple and efficient — Sora 2 Video, Veo3.1, Nano Banana Pro, Video Reverse Prompt Generator, and more. | [👉 Get Deal](https://nanophoto.ai/pricing?utm_source=Black-Friday-Deals) |
 
 ### 🎨 Graphic Software
 
@@ -150,6 +157,8 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **Animock: 3D Mockup Maker** | Turn screenshots and recordings into stunning 3D mockups and videos. Showcase your content in animated, realistic device frames — perfect for App Store shots, preview videos, social posts, and client presentations. | [👉 Get Deal](https://apps.apple.com/app/id6471911398) |
 | **ImageFramer** | Easily add frames, mats and borders to your art (Mac) | [👉 Get Deal](https://imageframer.net) |
 | **ScreenSnap Pro** | Turn ordinary screenshots into stunning visuals in seconds. Add gorgeous backgrounds, annotate with 14 tools, and cloud share instantly (Mac). | [👉 Get Deal](https://www.screensnap.pro/) |
+| **Quickshot Photo Editor** | Powerful AI powered photo editor. Edit photos with words, not tools (iOS) | [👉 Get Deal](https://quickshot.photo?ref=mRs/) |
+| **SnapVis** | Transform any screenshot, images into stunning visuals for social media, documentation, product demos, presentations, and more. Add backgrounds, shadows, frames — all in your browser. | [👉 Get Deal](https://www.snapvis.app/) |
 
 ### 🎶 Creative content
 
@@ -172,6 +181,7 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **None to Run: Beginner Running Plans** | Achievable Walk/Run training programs for beginner runners. Start running today! | [👉 Get Deal](https://apps.apple.com/us/app/none-to-run-beginner-5k-10k/id1491658094) |
 | **Walk Mate: Weight Loss** | Daily random walking routes in your location. Valid from 13th Nov to 31th Dec | [👉 Get Deal](https://apps.apple.com/redeem?ctx=offercodes&id=6739468121&code=BLCKFRDY25) |
 | **30 Day Workout - QuickFit** | Personalized home workout plans based on your goals. Valid from 23th Nov to 30th Nov | [👉 Get Deal](https://quickfit.bylancer.com/) |
+| **Zenitizer - Meditation Timer** | **Clutter-free meditation timer** designed for *unguided* meditation on iPhone and  Watch. Deep integration with Apple Health, Widgets and Shortcuts. Customizable with soothing sounds. | [👉 Get Deal](https://apps.apple.com/us/app/meditation-timer-zenitizer/id6444767911) |
 
 ### 🏝️ Lifestyle
 
@@ -273,6 +283,7 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **ExtraDock** | Create unlimited floating Docks for macOS - Perfect for multiple monitors setups | [👉 Get Deal](https://extradock.app) |
 | **Blark** | The best way to take monochrome/black & white pictures and videos on the iPhone and iPad. | [👉 Get Deal](https://blark.app) |
 | **Litur(macOS)** | A designer’s best-kept secret, a developer's best friend. Litur helps you manage and improve your colors and design workflow. | [👉 Get Deal](https://litur.app) |
+| **FiveNotes** | 5 quickly accessed notes. Floating above other apps and looking great with themes. | [👉 Get Deal](https://www.apptorium.com/fivenotes) |
 | **Workspaces 2** | Project-based launcher that opens your files, folders, websites, apps etc. with one click. | [👉 Get Deal](https://www.apptorium.com/workspaces) |
 | **SideNotes** | Take notes on your screen side with no distraction. | [👉 Get Deal](https://www.apptorium.com/sidenotes) |
 | **Lattix** | Lattix is a powerful launcher which helps you to open any app or file with preset layouts across your monitors. | [👉 Get Deal](https://www.lattix.app) |
@@ -295,6 +306,13 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **Spencer** | Save & restore window positions — across all virtual Desktops. Launch the right apps, hide others, and adjust number of Desktops to match your saved setup. Create layouts for different display setups and different tasks to stay organized and focused. | [👉 Get Deal](https://macspencer.app) |
 | **Tabhive** | Tabhive is a Chrome extension that helps you organize your tabs and manage your links | [👉 Get Deal](https://www.tabhive.app/) |
 | **SwiftBiu** | SwiftBiu is a text efficiency tool for macOS, select text in any app and a customizable extended toolbar pops up to make common operations "one step". Supports AI multimodal (text-to-text, text-to-graph), AppleScript/javascript plugins, html extension applets. | [👉 Get Deal](https://swiftbiu.com) |
+| **Craft Docs** | Create stunning documents, manage tasks, build dynamic collections, and structure your ideas your way. | [👉 Get Deal](https://www.craft.do/) |
+| **Timemator** | Timemator automatically tracks work on your Mac, turning app, file & website activity into accurate timesheets. | [👉 Get Deal](https://timemator.com/) |
+| **Daylish - Day Planner** | A delightful day planner that helps you **never be late** again and *flow through your day* with ease. Get ready to leave on time with **smart alarms and timers**. | [👉 Get Deal](https://apps.apple.com/us/app/daylish-visual-schedule/id6751201325) |
+| **Labs64 NetLicensing** | Elevate your licensing & monetization | [👉 Get Deal](https://netlicensing.io/blog/2025/11/25/labs64-netlicensing-cyber-weeks-2025/) |
+| **Unclutter** | A smart space on your desktop to store and organize your everyday files, notes, and clipboard data. | [👉 Get Deal](https://unclutterapp.com/bundle/?coupon=UN-BLACKFRIDAY-2025&s=git#UNCLUTTER) |
+| **MenubarX** | Powful macOS menu bar browser that helps you to add any web pages to the menu bar just like Native Apps. | [👉 Get Deal](https://menubarx.app/) |
+| **DockX** | Magic app that allows you to display any content in the Dock and Menu bar, you can just sneak a peek anytime without opening any app. | [👉 Get Deal](https://dockx.app/) |
 
 ### 📖 Books
 
@@ -401,6 +419,9 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **VerifyForge** | Email Validation API - Verify email addresses in real-time with high accuracy | [👉 Get Deal](https://verifyforge.com/) |
 | **Pushever** | GUI tool to test iOS push notifications | [👉 Get Deal](https://pushever.app) |
 | **Beyond Compare** | Beyond Compare is a software application used by developers, system administrators and others to compare, merge, and synchronize data.  It runs on Windows, macOS, and Linux. | [👉 Get Deal](https://www.scootersoftware.com/sales/promo) |
+| **ThemeSelection** | Fully customizable Admin Templates, UI kits & SaaS Boilerplates | [👉 Get Deal](https://themeselection.com) |
+| **LeapOCR** | Extract Structured Data from Any Document, get markdown or structured data from any PDF, digitize your archives | [👉 Get Deal](https://leapocr.com/) |
+| **Nexty.dev** | Build Your SaaS in Days, Not Weeks | [👉 Get Deal](https://nexty.dev#pricing) |
 
 ### 🛠 Marketing Software
 
@@ -430,6 +451,7 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **SubCal** | Manage every subscription in one place with smart reminders and deep link access that keep you in control. | [👉 Get Deal](https://apps.apple.com/ar/app/subscription-tracker-subcal/id6752016485?l=en-GB) |
 | **Subscription Day** | A small but so useful app for your Menu Bar to keep track of your paid subscriptions and analyze statistics. | [👉 Get Deal](https://appps.od.ua/subscription-day/) |
 | **Sumio** | AI-Powered Portfolio & Net Worth Tracker. | [👉 Get Deal](https://www.sumio.app) |
+| **Tilla Premium** | Subscriptions tracking on Android, without any ads or subscriptions required | [👉 Get Deal](https://play.google.com/store/apps/details?id=com.pavelrekun.tilla.premium) |
 
 ### 🤖 AI Tools
 
@@ -477,6 +499,12 @@ Here is a curated list of the best Black Friday deals for developers, macOS/iOS 
 | **Pesu.ai** | Pesu.ai helps recruiters and HR teams evaluate candidates in real time, using AI to automatically create and score skill-based assessments. | [👉 Get Deal](https://pesu.payanai.com/) |
 | **CallCow AI** | AI voice assistant that sounds just like you. Clone your voice in 30 seconds and replace your traditional voice mail. | [👉 Get Deal](https://www.callcow.ai) |
 | **Monologue** | Effortless voice dictation that adapts to your style, context & vocabulary so you can work 3× faster. | [👉 Get Deal](https://monologue.to) |
+| **RemoveMark** | Remove text, handwritten notes, and watermarks from images, plus remove watermarks from videos in a few clicks. | [👉 Get Deal](https://removemark.io) |
+| **ConsoleX AI** | The ultimate AI studio for creators - all frontier models and creative tools in one place — Gemini 3, Opus 4.5, GPT 5.1, Nano Banana Pro, Sora 2 & Veo 3. | [👉 Get Deal](https://consolex.ai) |
+| **GPT Breeze** | Save hours consuming long content on the web. GPT Breeze Extension summarizes YouTube videos and articles, accelerates your writing, by saving your prompts as one-click shortcuts on browsers. | [👉 Get Deal](https://gptbreeze.io/) |
+| **VisionGPT Extension** | VisionGPT Ext is a Chrome extension for GPT-powered screenshot analysis (BYOK) | [👉 Get Deal](https://www.visiongpthq.com) |
+| **Grammarly Pro** | The document editor that combines AI Chat with specialized agents to build on your writing, voice, and ideas. | [👉 Get Deal](https://www.grammarly.com/limited-time-offer) |
+| **Blip AI Pro** | Voice to text dictation app for Mac, Alternative to wispr flow, Type emails, slack, chatGPT, Cursor prompts 4x faster | [👉 Get Deal](https://blipai.app) |
 
 
 ---

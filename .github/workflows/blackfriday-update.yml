@@ -4,10 +4,10 @@ on:
   schedule:
     # Run every hour from Nov 1 to Dec 15
     # Cron format: minute hour day month day_of_week
-    # November: Every hour
-    - cron: '0 * * 11 *'
-    # December: Every hour until the 15th
-    - cron: '0 * 1-15 12 *'
+    # November: Every 6 hour
+    - cron: '0 */6 * 11 *'
+    # December: Every 6 hour until the 15th
+    - cron: '0 */6 1-15 12 *'
   workflow_dispatch: # Allow manual trigger
 
 permissions:
