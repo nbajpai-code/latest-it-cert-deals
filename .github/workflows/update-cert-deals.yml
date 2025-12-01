@@ -53,7 +53,7 @@ jobs:
           git stash push -m "workflow changes"
           
           # Pull latest changes first
-          git pull --rebase origin master
+          git pull --rebase origin main
           
           # Apply stashed changes
           git stash pop
