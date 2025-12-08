@@ -1,7 +1,7 @@
 # 🛍️ Black Friday & Cyber Monday Deals 2025
 
 > **Auto-updated hourly** from Nov 1 to Dec 15.
-> Last updated: `2025-12-08 06:32:42 UTC`
+> Last updated: `2025-12-08 12:39:51 UTC`
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/nbajpai-code/latest-it-cert-deals/graphs/commit-activity)
