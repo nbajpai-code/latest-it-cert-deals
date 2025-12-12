@@ -1,5 +1,5 @@
 # 📊 Weekly IT Certification Update
-**Date:** 2025-12-11
+**Date:** 2025-12-12
 **Status:** Automated check completed
 
 ## 📰 Latest News (Last 7 Days)
