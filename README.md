@@ -16,32 +16,6 @@ A curated list of **free IT certification exam vouchers**, **beta exam opportuni
 
 ## 🎯 Active Free Voucher Programs
 
-### AWS - 25% Discount + Free Retake
-
-**Status:** ✅ **ACTIVE** (November 10, 2025 - February 15, 2026)
-
-**Eligibility:** Available to everyone
-
-**Discount:** 25% off any AWS certification exam
-**Bonus:** Free retake if you don't pass
-
-**Available Certifications:**
-- ✅ All AWS Certifications
-
-**How to Claim:**
-1. Visit AWS Certification portal
-2. Apply promotion code during checkout
-3. Schedule your exam
-4. Get free retake if needed
-
-**Value:** $37.50-$112.50 saved + free retake ($150-$300 value)
-
-**Links:**
-- [Main](https://aws.amazon.com/certification/)
-- [Promo](https://aws.amazon.com/certification/)
-
----
-
 ### AWS - Emerging Talent Community (ETC)
 
 **Status:** ✅ **ACTIVE** (Ongoing)
