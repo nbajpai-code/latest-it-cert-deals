@@ -1,32 +1,6 @@
 {
     "deals": [
         {
-            "id": "aws-discount-retake-2025",
-            "provider": "AWS",
-            "title": "25% Discount + Free Retake",
-            "status": "active",
-            "start_date": "2025-11-10",
-            "end_date": "2026-02-15",
-            "ongoing": false,
-            "eligibility": "Available to everyone",
-            "discount": "25% off any AWS certification exam",
-            "free_retake": true,
-            "certifications": [
-                "All AWS Certifications"
-            ],
-            "value": "$37.50-$112.50 saved + free retake ($150-$300 value)",
-            "how_to_claim": [
-                "Visit AWS Certification portal",
-                "Apply promotion code during checkout",
-                "Schedule your exam",
-                "Get free retake if needed"
-            ],
-            "links": {
-                "main": "https://aws.amazon.com/certification/",
-                "promo": "https://aws.amazon.com/certification/"
-            }
-        },
-        {
             "id": "aws-etc-2025",
             "provider": "AWS",
             "title": "Emerging Talent Community (ETC)",
@@ -43,9 +17,9 @@
                 "AWS Certified Data Engineer - Associate",
                 "AWS Certified Machine Learning Engineer - Associate"
             ],
-            "value": "$150-$300 per exam saved",
+            "value": "$150–$300 per exam saved",
             "how_to_claim": [
-                "Complete AWS Training program (Educate/re/Start/Academy)",
+                "Complete AWS Training program (Educate / re:Start / Academy)",
                 "Earn qualifying badge",
                 "Use ETC points to request voucher",
                 "Redeem at AWS Certification portal"
@@ -56,14 +30,36 @@
             }
         },
         {
+            "id": "aws-discount-retake-2025",
+            "provider": "AWS",
+            "title": "25% Discount + Free Retake (EXPIRED)",
+            "status": "expired",
+            "ongoing": false,
+            "start_date": "2025-11-10",
+            "end_date": "2026-02-15",
+            "eligibility": "Was available to everyone",
+            "discount": "25% off any AWS certification exam",
+            "free_retake": true,
+            "certifications": [
+                "All AWS Certifications"
+            ],
+            "value": "$37.50–$112.50 saved + free retake",
+            "how_to_claim": [],
+            "links": {
+                "main": "https://aws.amazon.com/certification/"
+            }
+        },
+        {
             "id": "oracle-oci-foundations",
             "provider": "Oracle",
-            "title": "Cloud Infrastructure Foundations - Always Free",
+            "title": "Cloud Infrastructure Foundations — Always Free",
             "status": "active",
             "ongoing": true,
             "cost": "$0",
             "certification": "Oracle Cloud Infrastructure Foundations Associate",
-            "exam_code": "1Z0-1085-24",
+            "certifications": [
+                "Oracle Cloud Infrastructure 2024 Foundations Associate (1Z0-1085-24)"
+            ],
             "prerequisites": "None",
             "format": "Online proctored exam",
             "value": "$95 saved",
@@ -79,13 +75,15 @@
             }
         },
         {
-            "id": "isc2-cc-2025",
+            "id": "isc2-cc-1mcc",
             "provider": "(ISC)²",
             "title": "One Million Certified in Cybersecurity",
             "status": "active",
             "ongoing": true,
             "cost": "$0",
-            "certification": "Certified in Cybersecurity (CC)",
+            "certifications": [
+                "Certified in Cybersecurity (CC)"
+            ],
             "includes": [
                 "Free exam voucher",
                 "Free exam retake (if needed)",
@@ -95,8 +93,8 @@
             "value": "$50 (exam) + $99 (retake) + $50 (membership) = $199 saved",
             "how_to_claim": [
                 "Register at isc2.org/landing/1mcc",
-                "Complete free training",
-                "Schedule exam",
+                "Complete free self-paced training",
+                "Schedule exam through Pearson VUE",
                 "Pass and get certified"
             ],
             "links": {
@@ -126,9 +124,67 @@
                     "eligibility": "Individuals from non-technical backgrounds"
                 }
             ],
-            "value": "$99-$165 per exam saved",
+            "value": "$99–$165 per exam saved",
+            "how_to_claim": [
+                "Check current active programs at Microsoft Training Days",
+                "Confirm eligibility for your target program",
+                "Register via the program-specific enrollment link",
+                "Receive voucher code and redeem at Pearson VUE"
+            ],
             "links": {
-                "main": "https://www.microsoft.com/en-us/trainingdays"
+                "main": "https://www.microsoft.com/en-us/trainingdays",
+                "partner": "https://partner.microsoft.com/en-us/training/training-center"
+            }
+        },
+        {
+            "id": "gcp-skill-badges",
+            "provider": "Google Cloud",
+            "title": "Skill Badges & Game Day Events",
+            "status": "active",
+            "ongoing": true,
+            "eligibility": "Open to all — some campaigns require Google Cloud skills game enrollment",
+            "certifications": [
+                "Google Cloud Digital Leader",
+                "Google Cloud Associate Cloud Engineer",
+                "Google Cloud Professional Cloud Architect"
+            ],
+            "value": "Free labs, skill badges, and periodic exam vouchers (~$200 value)",
+            "how_to_claim": [
+                "Sign up at Google Cloud Skills Boost (cloud.google.com/training)",
+                "Complete learning paths and earn skill badges",
+                "Watch for 'Google Cloud Next' and 'Cloud Skills Challenge' campaigns for free exam vouchers",
+                "Redeem vouchers at Kryterion Webassessor"
+            ],
+            "links": {
+                "main": "https://cloud.google.com/training",
+                "skills_boost": "https://www.cloudskillsboost.google/",
+                "certifications": "https://cloud.google.com/certification"
+            }
+        },
+        {
+            "id": "linux-foundation-free-courses",
+            "provider": "Linux Foundation",
+            "title": "Free Courses & Periodic Exam Discounts",
+            "status": "active",
+            "ongoing": true,
+            "eligibility": "Open to all",
+            "certifications": [
+                "Kubernetes and Cloud Native Associate (KCNA)",
+                "Certified Kubernetes Application Developer (CKAD)",
+                "Certified Kubernetes Administrator (CKA)",
+                "Linux Foundation Certified System Administrator (LFCS)"
+            ],
+            "value": "Free training courses + up to 40% exam discounts during campaign periods",
+            "how_to_claim": [
+                "Visit training.linuxfoundation.org",
+                "Filter by 'Free' to find no-cost courses",
+                "Watch for Linux Foundation anniversary and KubeCon sale campaigns",
+                "Apply promo codes at checkout for exam discounts"
+            ],
+            "links": {
+                "main": "https://training.linuxfoundation.org",
+                "free_courses": "https://training.linuxfoundation.org/resources/free-courses/",
+                "certifications": "https://training.linuxfoundation.org/certification/"
             }
         }
     ],
@@ -156,6 +212,22 @@
             "discount": "Free or heavily discounted",
             "sources": [
                 "https://www.comptia.org/testing/beta-exams"
+            ]
+        },
+        {
+            "provider": "Google Cloud",
+            "discount": "Varies — typically free for active campaigns",
+            "sources": [
+                "https://cloud.google.com/blog/",
+                "https://www.cloudskillsboost.google/"
+            ]
+        },
+        {
+            "provider": "Cisco",
+            "discount": "Varies — check DevNet and Learning Network",
+            "sources": [
+                "https://learningnetwork.cisco.com/s/",
+                "https://developer.cisco.com/certification/"
             ]
         }
     ]

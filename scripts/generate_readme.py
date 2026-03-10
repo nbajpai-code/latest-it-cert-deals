@@ -1,116 +1,156 @@
 #!/usr/bin/env python3
 """
-Generate README.md from deals.json, filtering out expired deals.
-Only shows active, current certification opportunities.
+generate_readme.py
+------------------
+Generates README.md from data/deals.json.
+
+Key behaviours:
+  - Expired deals (end_date in the past, ongoing=false) are EXCLUDED
+  - Ongoing deals are always shown
+  - Providers sorted alphabetically within each section
 """
 
 import json
-from datetime import datetime
 import os
+from datetime import datetime
+
+REPO_ROOT = os.path.join(os.path.dirname(__file__), '..')
+DEALS_FILE = os.path.join(REPO_ROOT, 'data', 'deals.json')
+README_FILE = os.path.join(REPO_ROOT, 'README.md')
+
 
 def load_deals():
-    """Load deals from JSON file."""
-    with open('data/deals.json', 'r') as f:
+    with open(DEALS_FILE) as f:
         return json.load(f)
 
+
 def is_active(deal):
-    """Check if a deal is currently active."""
-    # Ongoing deals are always active
+    """Return True if the deal is currently active / not expired."""
+    if deal.get('status') != 'active':
+        return False
     if deal.get('ongoing', False):
         return True
-    
-    # Check end date for time-limited deals
-    if 'end_date' in deal:
-        end_date = datetime.strptime(deal['end_date'], '%Y-%m-%d')
-        return datetime.now() < end_date
-    
-    return True
+    end_date_str = deal.get('end_date')
+    if not end_date_str:
+        return True  # No end date → assume still active
+    try:
+        end_date = datetime.strptime(end_date_str, '%Y-%m-%d').date()
+        return end_date >= datetime.now().date()
+    except ValueError:
+        return True  # Malformed date → don't hide it
 
-def format_deal(deal):
-    """Format a single deal as markdown."""
-    md = f"### {deal['provider']} - {deal['title']}\n\n"
-    
-    # Status line
+
+def format_deal_section(deal):
+    """Render a single deal as a README markdown section."""
+    provider = deal.get('provider', 'Unknown')
+    title    = deal.get('title', '')
+    value    = deal.get('value', '')
+    links    = deal.get('links', {})
+    main_url = links.get('main', '#')
+
+    # Status / expiry line
     if deal.get('ongoing'):
-        md += "**Status:** ✅ **ACTIVE** (Ongoing)\n\n"
-    elif 'end_date' in deal:
-        end_date = datetime.strptime(deal['end_date'], '%Y-%m-%d').strftime('%B %d, %Y')
-        if 'start_date' in deal:
-            start_date = datetime.strptime(deal['start_date'], '%Y-%m-%d').strftime('%B %d, %Y')
-            md += f"**Status:** ✅ **ACTIVE** ({start_date} - {end_date})\n\n"
-        else:
-            md += f"**Status:** ✅ **ACTIVE** (Ending {end_date})\n\n"
-    
-    # Details
-    if 'eligibility' in deal:
-        md += f"**Eligibility:** {deal['eligibility']}\n\n"
-    
-    if 'discount' in deal:
-        md += f"**Discount:** {deal['discount']}\n"
-    
-    if deal.get('free_retake'):
-        md += "**Bonus:** Free retake if you don't pass\n"
-    
-    md += "\n"
-    
-    # Certifications
-    if 'certifications' in deal:
-        md += "**Available Certifications:**\n"
-        for cert in deal['certifications']:
-            md += f"- ✅ {cert}\n"
-        md += "\n"
-    
-    if 'certification' in deal:
-        md += f"**Certification:** {deal['certification']}\n"
-        if 'exam_code' in deal:
-            md += f"**Exam Code:** {deal['exam_code']}\n"
-        md += "\n"
-    
-    # Programs (for Microsoft Partner)
-    if 'programs' in deal:
-        md += "**Programs:**\n"
-        for prog in deal['programs']:
-            md += f"- **{prog['name']}**: {prog['benefit']} ({prog['eligibility']})\n"
-        md += "\n"
-    
-    # Includes (for ISC2)
-    if 'includes' in deal:
-        md += "**What's Included:**\n"
-        for item in deal['includes']:
-            md += f"- ✅ {item}\n"
-        md += "\n"
-    
+        status_line = 'Status: ✅ ACTIVE (Ongoing)'
+    else:
+        end_date = deal.get('end_date', 'TBD')
+        status_line = f'Status: ✅ ACTIVE (Expires: {end_date})'
+
+    # Eligibility / certifications
+    eligibility = deal.get('eligibility', '')
+    certifications = deal.get('certifications', [])
+    if not certifications and deal.get('certification'):
+        certifications = [deal['certification']]
+
+    # Programs (e.g. Microsoft partner)
+    programs = deal.get('programs', [])
+
     # How to claim
-    if 'how_to_claim' in deal:
-        md += "**How to Claim:**\n"
-        for i, step in enumerate(deal['how_to_claim'], 1):
-            md += f"{i}. {step}\n"
-        md += "\n"
-    
-    # Value
-    if 'value' in deal:
-        md += f"**Value:** {deal['value']}\n\n"
-    
+    steps = deal.get('how_to_claim', [])
+
+    # Includes list (e.g. ISC2)
+    includes = deal.get('includes', [])
+
+    lines = [f'### {provider} — {title}', status_line]
+
+    if eligibility:
+        lines.append(f'**Eligibility:** {eligibility}')
+
+    if certifications:
+        lines.append('**Available Certifications:**')
+        for c in certifications:
+            lines.append(f'- ✅ {c}')
+
+    if programs:
+        lines.append('**Programs:**')
+        for p in programs:
+            lines.append(f"- **{p['name']}:** {p['benefit']} _{p.get('eligibility', '')}_")
+
+    if includes:
+        lines.append('**What\'s Included:**')
+        for i in includes:
+            lines.append(f'- ✅ {i}')
+
+    if steps:
+        lines.append('**How to Claim:**')
+        for i, step in enumerate(steps, 1):
+            lines.append(f'{i}. {step}')
+
+    lines.append(f'**Value:** {value}')
+
     # Links
-    if 'links' in deal:
-        md += "**Links:**\n"
-        for key, url in deal['links'].items():
-            label = key.replace('_', ' ').title()
-            md += f"- [{label}]({url})\n"
-        md += "\n"
-    
-    md += "---\n\n"
-    return md
+    link_parts = []
+    for key, url in links.items():
+        label = key.capitalize()
+        link_parts.append(f'[{label}]({url})')
+    if link_parts:
+        lines.append('**Links:** ' + ' · '.join(link_parts))
+
+    return '\n'.join(lines)
+
+
+def format_beta_sources(beta_sources):
+    sections = []
+    for b in sorted(beta_sources, key=lambda x: x.get('provider', '')):
+        provider = b.get('provider', '')
+        discount = b.get('discount', '')
+        sources  = b.get('sources', [])
+        lines = [
+            f'### {provider} Beta Exams',
+            f'**Typical Discount:** {discount}',
+            '**How to Find:**',
+        ]
+        for s in sources:
+            lines.append(f'- [{s}]({s})')
+        sections.append('\n'.join(lines))
+    return '\n\n'.join(sections)
+
 
 def generate_readme(data):
-    """Generate complete README content."""
-    today = datetime.now().strftime('%B %d, %Y')
-    
-    md = """# 🎓 Latest IT Certification Deals, Free Exams & Beta Programs
+    today = datetime.now().strftime('%Y-%m-%d')
 
-> **Auto-updated:** Daily via GitHub Actions
+    all_deals  = data.get('deals', [])
+    active_deals = [d for d in all_deals if is_active(d)]
+    expired_count = len(all_deals) - len(active_deals)
 
-A curated list of **free IT certification exam vouchers**, **beta exam opportunities**, and **discount codes** from major cloud providers and IT certification vendors.
+    beta_sources = data.get('beta_sources', [])
+
+    # Sort active deals: ongoing first, then by provider name
+    active_deals.sort(key=lambda d: (not d.get('ongoing', False), d.get('provider', '')))
+
+    deal_sections = '\n\n'.join(format_deal_section(d) for d in active_deals)
+    beta_section  = format_beta_sources(beta_sources)
+
+    expired_note = ''
+    if expired_count > 0:
+        expired_note = f'\n> ℹ️ {expired_count} deal(s) have expired and are hidden. Update `data/deals.json` to remove them.\n'
+
+    return f"""# 🎓 Latest IT Certification Deals, Free Exams & Beta Programs
+
+> **Auto-updated:** Daily via GitHub Actions  
+> **Last check:** {today}{expired_note}
+
+A curated list of **free** IT certification exam vouchers, beta exam opportunities,
+and discount codes from major cloud providers and IT certification vendors.
 
 ---
 
@@ -119,59 +159,49 @@ A curated list of **free IT certification exam vouchers**, **beta exam opportuni
 - [Active Free Voucher Programs](#-active-free-voucher-programs)
 - [Beta Exam Opportunities](#-beta-exam-opportunities)
 - [How to Get Notified](#-how-to-get-notified)
+- [Daily Deal Tracker](cert-deals-update.md)
 
 ---
 
 ## 🎯 Active Free Voucher Programs
 
-"""
-    
-    # Filter and add active deals
-    active_deals = [deal for deal in data['deals'] if is_active(deal)]
-    
-    if not active_deals:
-        md += "*No active deals at this time. Check back soon!*\n\n"
-    else:
-        for deal in active_deals:
-            md += format_deal(deal)
-    
-    # Beta exam section
-    md += """## 🧪 Beta Exam Opportunities
+_{len(active_deals)} active program(s) as of {today}_
 
-Beta exams are **heavily discounted or free** in exchange for feedback. Check these sources weekly:
+{deal_sections}
 
-"""
-    
-    for source in data.get('beta_sources', []):
-        md += f"### {source['provider']} Beta Exams\n\n"
-        md += f"**Typical Discount:** {source['discount']}\n\n"
-        md += "**How to Find:**\n"
-        for url in source['sources']:
-            md += f"- {url}\n"
-        md += "\n---\n\n"
-    
-    # Footer
-    md += """## 📅 How to Get Notified
+---
 
-This repository is **automatically updated daily** via GitHub Actions!
+## 🧪 Beta Exam Opportunities
+
+Beta exams are heavily discounted or free in exchange for feedback.
+Check these sources **weekly** — spots fill up fast:
+
+{beta_section}
+
+---
+
+## 📅 How to Get Notified
 
 ### Automated Tracking
-
-- ✅ **Every day at 9 AM UTC** - Script checks for new deals
-- ✅ **Watch this repo** - Get notified of updates
+- ✅ Every day at 9 AM UTC — script checks all major vendor feeds
+- ✅ [Watch / Star this repo](https://github.com/nbajpai-code/latest-it-cert-deals/subscription) to receive update notifications
+- ✅ RSS feed updates committed daily to [`cert-deals-update.md`](cert-deals-update.md)
 
 ### Manual Tracking Methods
 
 **Follow on LinkedIn:**
 - [Microsoft Learn](https://www.linkedin.com/showcase/microsoft-learn/)
 - [AWS Training & Certification](https://www.linkedin.com/showcase/aws-training-and-certification/)
+- [Google Cloud](https://www.linkedin.com/showcase/google-cloud/)
 
-**Subscribe to Newsletters:**
+**Subscribe to Newsletters / Blogs:**
 - [Microsoft Born to Learn](https://borntolearn.mslearn.net/)
-- AWS Training emails
+- [AWS Training & Certification Blog](https://aws.amazon.com/blogs/training-and-certification/)
+- [Linux Foundation Newsletter](https://www.linuxfoundation.org/newsletter/)
 
 **Join Communities:**
 - [r/certifications](https://reddit.com/r/certifications) subreddit
+- [r/AWSCertifications](https://reddit.com/r/AWSCertifications)
 - IT certification Discord servers
 
 ---
@@ -181,8 +211,25 @@ This repository is **automatically updated daily** via GitHub Actions!
 Found a new deal? Please contribute!
 
 1. Fork this repository
-2. Update `data/deals.json` with the new deal
+2. Add the deal to [`data/deals.json`](data/deals.json) following the existing schema
 3. Submit a pull request
+
+**Schema example:**
+```json
+{{
+  "id": "vendor-program-year",
+  "provider": "VendorName",
+  "title": "Program Title",
+  "status": "active",
+  "ongoing": false,
+  "end_date": "YYYY-MM-DD",
+  "eligibility": "Who can claim this",
+  "certifications": ["Cert Name (CODE-001)"],
+  "value": "$X saved",
+  "how_to_claim": ["Step 1", "Step 2"],
+  "links": {{ "main": "https://..." }}
+}}
+```
 
 ---
 
@@ -196,34 +243,19 @@ Found a new deal? Please contribute!
 
 ---
 
-**⭐ Star this repo** to bookmark and get notified of updates!
-
----
-
+⭐ **Star this repo** to bookmark and get notified of updates!  
 Made with ❤️ for the IT certification community | Auto-updated via GitHub Actions 🤖
 """
-    
-    return md
+
 
 def main():
-    """Main function."""
-    print("🔄 Generating README from active deals...")
-    
-    # Load deals
     data = load_deals()
-    
-    # Filter active deals
-    active_count = sum(1 for deal in data['deals'] if is_active(deal))
-    print(f"✅ Found {active_count} active deals (filtered out {len(data['deals']) - active_count} expired)")
-    
-    # Generate README
-    readme_content = generate_readme(data)
-    
-    # Write to file
-    with open('README.md', 'w') as f:
-        f.write(readme_content)
-    
-    print("✅ README.md generated successfully!")
+    readme = generate_readme(data)
+    with open(README_FILE, 'w') as f:
+        f.write(readme)
+    print(f'✅ README.md generated successfully.')
+    print(f'   Active deals: {len([d for d in data.get("deals", []) if is_active(d)])}')
 
-if __name__ == "__main__":
+
+if __name__ == '__main__':
     main()
